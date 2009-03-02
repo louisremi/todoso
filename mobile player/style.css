@@ -1,0 +1,75 @@
+.view {
+	width: 400px;
+	height: 240px;
+	overflow-y: scroll;
+}
+
+.hPresentation {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+/* Reset CSS for the content of the presentation */
+.hPresentation * {
+	margin: 0;
+	padding: 0;
+	display: block;
+	position: absolute;
+}
+
+.hSlide {
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+.hSlide:focus {
+	display: block;
+	outline: none;
+}
+
+.hBackground {
+	width: 100%;
+	height: 100%;
+}
+
+/*
+.hSlide * {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+.hNumber {
+	display: block;
+	height: 50px;
+	width: 75px;
+	margin: 0 auto;
+	padding-top: 0.7em;
+	text-align: center;
+	font-size: 1.5em;
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.hBackground {
+	width: 75%;
+	height: 100%;
+}
+
+.hSlide:focus {
+	outline: none;
+}
+
+.hSlide:focus * {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.hSlide:focus .hNumber {
+	position: inherit;
+}
+*/
