@@ -4,36 +4,63 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Player prototype</title>
 		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+		<style type="text/css">
+			body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			}
+			
+			html {
+				height: 100%;
+			}
+			
+			.hNumber {
+				right: 5%;
+				bottom: 5%;
+				width: 5%;
+				height: 5%;
+				font-size: 1.5em;
+			}
+			
+			h2 {
+				width: 100%;
+				text-align: center;
+				top: 5%;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="view">
-			<div class="hPresentation">
-				<a class="hSlide" id="sldm-0" href="#sldm-1">
-					<span class="hNumber">1</span>
-					<span class="hBackground" style="background-color:red;"></span>
-					<p>This is a text</p>
-				</a>
-				<a class="hSlide" id="sldm-1" href="#sldm-2">
-					<span class="hNumber">2</span>
-					<span class="hBackground" style="background-color:blue;"></span>
-					<p>This is a text</p>
-				</a>
-				<a class="hSlide" id="sldm-2" href="#sldm-3">
-					<span class="hNumber">3</span>
-					<span class="hBackground" style="background-color:green;"></span>
-					<p>This is a text</p>
-				</a>
-				<a class="hSlide" id="sldm-3" href="#sldm-4">
-					<span class="hNumber">4</span>
-					<span class="hBackground" style="background-color:yellow;"></span>
-					<p>This is a text</p>
-				</a>
-				<a class="hSlide" id="sldm-4" href="#sldm-0">
-					<span class="hNumber">5</span>
-					<span class="hBackground" style="background-color:purple;"></span>
-					<p>This is a text</p>
-				</a>
-			</div>
-		</div>	
+			<article class="hPresentation" id="sldm-0">
+				<section class="hSlide" id="sldm-0-0">
+					<a href="#sldm-0-0" class="hBackground" style="background-color:red;"></a>
+					<a href="#sldm-0-1" class="hNumber">1</a>
+					<h2>This is the first Slide</h2>
+				</section>
+				<section class="hSlide" id="sldm-0-1">
+					<a href="#sldm-0-1" class="hBackground" style="background-color:blue;"></a>
+					<a href="#sldm-0-2" class="hNumber">2</a>
+					<h2>This is the second Slide</h2>
+				</section>
+				<section class="hSlide" id="sldm-0-2">
+					<a href="#sldm-0-2" class="hBackground" style="background-color:green;"></a>
+					<a href="#sldm-0-3" class="hNumber">3</a>
+					<h2>This is the third Slide</h2>
+				</section>
+				<section class="hSlide" id="sldm-0-3">
+					<a href="#sldm-0-3" class="hBackground" style="background-color:yellow;"></a>
+					<a href="#sldm-0-4" class="hNumber">4</a>
+					<h2>This is the fourth Slide</h2>
+				</section>
+				<section class="hSlide" id="sldm-0-4">
+					<a href="#sldm-0-4" class="hBackground" style="background-color:purple;"></a>
+					<a href="#sldm-0-5" class="hNumber">5</a>
+					<h2>This is the fifth Slide</h2>
+				</section>
+			</article>
+		</div>
+		<script type="text/javascript" src="../libraries/jquery.js"></script>
+		<script type="text/javascript" src="script.js"></script>		
 	</body>
 </html>

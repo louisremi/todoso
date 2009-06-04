@@ -1,0 +1,584 @@
+#LyX 1.6.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Project Specification:
+\begin_inset Newline newline
+\end_inset
+
+Presentation as a Dissemination Media Accessible on the Web
+\end_layout
+
+\begin_layout Author
+Louis-Rémi Babé
+\end_layout
+
+\begin_layout Standard
+A presentation is a very effective support for lecturers: using few bullet
+ points, figures, colors and animations, a well designed presentation can
+ help to clarify the structure of a talk, to highlight the important information
+, to show the development of an idea in an highly visual visual way either
+ for an informational or a persuasive purpose.
+ A typical presentation consist of a set of 
+\emph on
+slides 
+\emph default
+such as the one presented in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:A-typical-slide"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:A-typical-slide"
+
+\end_inset
+
+A typical slide with title, bullet points, illustration and slide number.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/slide.png
+	width 50text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If this media is only a visual aid during a lecture, it is often their only
+ written material and thus is of major importance for information dissemination
+ beyond the live presentation.
+\end_layout
+
+\begin_layout Standard
+In addition to the ability to simply send a presentation file by e-mail
+ or a download link on a Web page, most presentation software now have associate
+d platforms that allow to manage and share a library of such files in one
+ place.
+ But it is much harder to make a presentation accessible by embedding it
+ directly in a Web page: so far, the only solutions that produces a truly
+ accessible result are not meant for casual users and the presentations
+ are often simplified by removing their animations.
+\end_layout
+
+\begin_layout Part
+State of the art
+\end_layout
+
+\begin_layout Standard
+Prior to defining this project and indicating what novelty it will bring,
+ it is important to describe the Graphical User Interface (GUI) components,
+ to list the features that are to be found in current desktop or online
+ presentation software and to evaluate the accessibility of those solutions
+ on the Web.
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+Graphical user interface: A type of user interface which allows people to
+ interact with a computer through a metaphor of direct manipulation of graphical
+ images and widgets in addition to text.
+
+\emph default
+ ― Wiktionary, the Free dictionary
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_graphical_????"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+
+\emph on
+Accessibility is a general term used to describe the degree to which a product
+ (e.g., device, service, environment) is accessible by as many people as possible.
+
+\emph default
+ ― Wikipedia, the Free Encyclopedia
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_accessibility_????"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The purpose of the following section is not to compare the multitude of
+ solutions available on the desktop platforms and online but rather to present
+ what they usually have in common and what interesting innovations are integrate
+d in some of them.
+ The applications studied here range between the famous Microsoft PowerPoint
+ and Apple's Keynote to the growing in popularity challengers available
+ online — Google Documents Presentation, Live Presentation and SlideRocket
+ —, without forgetting about some obscure but nonetheless interesting solutions
+ such as S5.
+\end_layout
+
+\begin_layout Section
+The composition of the graphical user interface
+\end_layout
+
+\begin_layout Standard
+From the observation of the screenshots from the presentation software presented
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-main-graphical"
+
+\end_inset
+
+, it is possible to break down their GUI in three parts:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-main-graphical"
+
+\end_inset
+
+The main graphical user interface of different presentation software: Microsoft
+ PowerPoint, OpenOffice.org Impress, Keynote, Google Presentation, SlideRocket,
+ Live Presentations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/PowerPoint.png
+	height 21theight%
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename illustration project specifications/OpenOffice.org Impress.png
+	height 21theight%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/keynote.png
+	height 19theight%
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename illustration project specifications/Google Documents.png
+	height 19theight%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/SlideRocket.png
+	height 19.5theight%
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename illustration project specifications/Live-documents.png
+	height 19theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+The editing panel
+\end_layout
+
+\begin_layout Standard
+This is the main and most prominent GUI component: it contains only the
+ slide that is currently being edited.
+ Using a pointing device, the user can select the different elements of
+ the slide, change their position, inclination or dimension and edit the
+ content of the text elements.
+\end_layout
+
+\begin_layout Subsection
+The list of thumbnails
+\end_layout
+
+\begin_layout Standard
+On the left-hand side, the user can scroll through a list of thumbnails
+ of all slides.
+ When a thumbnail is clicked, it appears in the editing panel.
+ It is often possible to replace the thumbnails by alternative views of
+ the slides such as an outline views that displays only their text content.
+\end_layout
+
+\begin_layout Subsection
+The toolbars
+\end_layout
+
+\begin_layout Standard
+Although spread in different ways through the user interface, the toolbars
+ are more generally to be found at the top of the screen and details are
+ available either in sub-menus or the right-hand side.
+\end_layout
+
+\begin_layout Section
+Common features
+\end_layout
+
+\begin_layout Standard
+The following list of features are not necessarily present in all studied
+ applications but they could be described as the minimal set of features
+ that users are likely to expect from a presentation software.
+\end_layout
+
+\begin_layout Subsection
+Text
+\end_layout
+
+\begin_layout Standard
+It is of course possible to add text to the slides, be it the presentation's
+ title, a slide title, a list of bullet points or a table.
+ Just like in a word processor, all font properties are modifiable: size,
+ color, family, etc.
+\end_layout
+
+\begin_layout Subsection
+Vector shapes
+\end_layout
+
+\begin_layout Standard
+Numerous predefined shapes can be inserted in a slide: rectangle, ellipses,
+ lines, triangles, arrows, etc.
+\end_layout
+
+\begin_layout Subsection
+Illustrations
+\end_layout
+
+\begin_layout Standard
+Since presentations are a visual support for lecturers, the possibility
+ to insert illustrations such as images or charts is of paramount importance.
+\end_layout
+
+\begin_layout Subsection
+Layout choice
+\end_layout
+
+\begin_layout Standard
+To make the composition of a slide easier, layouts offer a quick way to
+ place the elements of a slide at predefined positions.
+\end_layout
+
+\begin_layout Subsection
+Master slide management
+\end_layout
+
+\begin_layout Standard
+The 
+\emph on
+master slide
+\emph default
+ offers the possibility to set the default properties of a slide on one
+ virtual slide.
+ It can be seen as a visual style sheet.
+\end_layout
+
+\begin_layout Subsection
+Transitions
+\end_layout
+
+\begin_layout Standard
+Transitions are animations applied to two slides that succeed to one other,
+ for example one fades out while the other slides from the top of the screen.
+\end_layout
+
+\begin_layout Subsection
+Playback
+\end_layout
+
+\begin_layout Standard
+Obviously, presentation have to be played at some point.
+ The lecturer need to be able to display the slide in full-screen, one after
+ the other.
+\end_layout
+
+\begin_layout Subsection
+Interoperability
+\end_layout
+
+\begin_layout Section
+Original and less common features
+\end_layout
+
+\begin_layout Subsection
+Animations
+\end_layout
+
+\begin_layout Standard
+?advanced animations in desktop applications?
+\end_layout
+
+\begin_layout Subsection
+Available on the Web
+\end_layout
+
+\begin_layout Standard
+?IDEA: Three advantages, it means that the documents are available everywhere
+ and that the files are stored on other hardware that is probably more reliable
+ than my laptop.
+ And it is cross platform?
+\end_layout
+
+\begin_layout Subsection
+Versioning
+\end_layout
+
+\begin_layout Subsection
+Collaboration
+\end_layout
+
+\begin_layout Subsection
+Online lectures
+\end_layout
+
+\begin_layout Standard
+?à la Webex?
+\end_layout
+
+\begin_layout Subsection
+Offline capabilities
+\end_layout
+
+\begin_layout Subsection
+Web embed-able
+\end_layout
+
+\begin_layout Section
+Accessibility of the presentations on the Web
+\end_layout
+
+\begin_layout Subsection
+Flash format
+\end_layout
+
+\begin_layout Subsection
+HTML based format
+\end_layout
+
+\begin_layout Part
+Try something new
+\end_layout
+
+\begin_layout Standard
+OBSERVATIONS
+\end_layout
+
+\begin_layout Itemize
+It is not possible to compete in term of feature richness for a single developer
+\end_layout
+
+\begin_layout Itemize
+Most presentation software have significant and original features to differentia
+te from the rest, but there are only slight and insignificant variations
+ in the GUI that actually has not evolved for ten years.
+ On the other hand, new concept of GUI appeared and gain popularity in the
+ meantime
+\end_layout
+
+\begin_layout Itemize
+None of the authoring applications that have a GUI allows to create Presentation
+s accessible on the Web and some of them even require additional plugins
+ that restrain their universal availability.
+ On the other hand, the HTML5 specification is being developed and it could
+ bring some answers to these issues.
+\end_layout
+
+\begin_layout Section
+STEPS TO TAKE
+\end_layout
+
+\begin_layout Itemize
+Design a Free and Open Source Software that would be appealing to the community
+ of developers to help you implement an application that would be competitive
+\end_layout
+
+\begin_layout Itemize
+Explore the validity of new concept of GUI such as Zoom UI, in presentation
+ software
+\end_layout
+
+\begin_layout Itemize
+Investigate the potential of HTML5 in terms of accessibility and plugin-less-nes
+s
+\end_layout
+
+\begin_layout Section
+Planning
+\end_layout
+
+\begin_layout Standard
+DON'T FORGET TO CHECK THE OUTCOMES OF THE PROJECT RENAISSANCE
+\end_layout
+
+\begin_layout Standard
+?IDEA: It is not debatable that the most widespread file formats are the
+ one produced by Microsoft PowerPoint ?SEARCH THE LITERATURE FOR EVIDENCES?
+\end_layout
+
+\begin_layout Standard
+Apple and Sun claim that their software are compatible with the files produced
+ in Microsoft PowerPoint (either the binary .ppt or the XML based .pptx)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_impress_????,_apple_????"
+
+\end_inset
+
+.
+ Although evaluating the interoperability of such files in the different
+ desktop office suites is out of the scope of this project, it can be noted
+ that it is in the best interest of competitors to be compatible with the
+ predominant file format in order to facilitate the users' migration.
+ Who would use a tool creating document which cannot be opened on their
+ friends' platform of choice? Moreover, the possibility of interoperability
+ is guaranteed by the recent Open Specification Promise (OSP) made by Microsoft
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_microsoft_????"
+
+\end_inset
+
+ concerning (but not limited to) the specification of the .ppt format as
+ well as the adoption of Open Office XML as an ISO/IEC standard ?CITE THE
+ STANDARDS?, which includes the specification of the .pptx format.
+\end_layout
+
+\begin_layout Standard
+?IDEA: Although this compatibility with Microsoft formats is available in
+ most desktop applications, only some of the online one are compatible?
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "Project and Dissertation"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
