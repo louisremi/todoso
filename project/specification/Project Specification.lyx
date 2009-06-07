@@ -53,6 +53,37 @@ Presentation as a Dissemination Media Accessible on the Web
 Louis-Rémi Babé
 \end_layout
 
+\begin_layout Abstract
+The number of online alternatives to Microsoft PowerPoint has been rapidly
+ growing in the past three years thanks to the emergence of appropriate
+ Web technologies.
+ They add a large number of interesting features to their desktop counterpart
+ such as collaboration and online lectures.
+ However, neither the traditional desktop applications nor their online
+ alternative succeed to produce presentations that would be accessible from
+ all Internet users on a Web page.
+ Moreover, the Graphical User Interface (GUI) of presentation software has
+ not evolved for ten years, while innovative concepts of GUI (e.g.
+ ZoomUI) rose.
+\end_layout
+
+\begin_layout Abstract
+The aim of this project is to design a full featured Web application that
+ could compete with other presentation software, but to implement only the
+ parts allowing it to produce accessible presentations as well as the ones
+ likely to result in an improved usability.
+ The whole project will be released under an Open Source license to let
+ anyone contribute to the further development of this application.
+\end_layout
+
+\begin_layout Abstract
+In doing so, the accessibility of current Web-enabled presentation will
+ be evaluated, the solutions for cross-browser vector drawing and graphical
+ animations will be evaluated, the validity of ZoomUI for presentation software
+ will be assessed and the way the community will contribute to this Open
+ project will be observed.
+\end_layout
+
 \begin_layout Standard
 A presentation is a very effective support for lecturers: using few bullet
  points, figures, colors and animations, a well designed presentation can
@@ -256,7 +287,7 @@ The main graphical user interface of different presentation software: Microsoft
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename illustration project specifications/keynote.png
+	filename illustration project specifications/Keynote.png
 	height 19theight%
 
 \end_inset
@@ -417,8 +448,20 @@ Obviously, presentation have to be played at some point.
 Interoperability
 \end_layout
 
+\begin_layout Standard
+Since the predominant file formats for presentations are the one produced
+ by Microsoft PowerPoint, numerous application aim at being compatible with
+ .ppt and .pptx file to make the user migration easier.
+\end_layout
+
 \begin_layout Section
 Original and less common features
+\end_layout
+
+\begin_layout Standard
+Some features are only to be found in the desktop software while others
+ are only available in their Web counterparts.
+ Some innovations are only present in one or two of the solutions studied.
 \end_layout
 
 \begin_layout Subsection
@@ -426,26 +469,260 @@ Animations
 \end_layout
 
 \begin_layout Standard
-?advanced animations in desktop applications?
-\end_layout
+If most applications offer the possibility to add transitions between slides,
+ it is usually possible to animate the elements of a slide only on the desktop.
+ To do so, once the appropriate toolbar (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-animation-toolbar"
 
-\begin_layout Subsection
-Available on the Web
+\end_inset
+
+) it is possible to select an element on the slide being edited, choose
+ the type (entrance, emphasis, exit or motion path) and visual materialization
+ of the effect.
+ It is then possible to choose its trigger (
+\emph on
+on click, start after previous, start with previous
+\emph default
+) and to set different parameters of the animation (direction, speed).
 \end_layout
 
 \begin_layout Standard
-?IDEA: Three advantages, it means that the documents are available everywhere
- and that the files are stored on other hardware that is probably more reliable
- than my laptop.
- And it is cross platform?
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-animation-toolbar"
+
+\end_inset
+
+The animation toolbar in PowerPoint 2007
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/PowerPoint animation.png
+	width 71text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/PowerPoint animation entrance.png
+	width 35text%
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename illustration project specifications/PowerPoint animation path.png
+	width 35text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Versioning
+Worldwide availability
+\end_layout
+
+\begin_layout Standard
+Online presentation software have three advantages that are direct consequences
+ of their 
+\emph on
+online nature
+\emph default
+:
+\end_layout
+
+\begin_layout Itemize
+The documents created with them are instantly available everywhere the user
+ is able to find a computer with an Internet connection.
+ At home, at school or at their office, they have access to all the presentation
+s they have created, without having to worry about the last place they forgot
+ their USB key.
+\end_layout
+
+\begin_layout Itemize
+Users do not have to worry either about backup.
+ Web applications usually rely on redundant storage that are in all case
+ much more reliable than any personal computer.
+\end_layout
+
+\begin_layout Itemize
+The Web is supposed to be cross-platform: its content can be accessed by
+ any user whatever the brand of their PC, the name of their Operating System
+ (OS) or Web browser.
+ Since all computers are now shipped with a browser and although there are
+ still some browser-specific technologies (vector graphics for example),
+ a well-thought-out Web application can be used by any user without requiring
+ to install any additional software on the client's configuration.
+\end_layout
+
+\begin_layout Standard
+It can be noted that the first two advantages have been balanced by the
+ aparition of online platforms for some of the desktop applications (
+\begin_inset CommandInset href
+LatexCommand href
+name "OfficeLive"
+target "http://www.officelive.com/"
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.officelive.com/
+\end_layout
+
+\end_inset
+
+ for Microsoft PorwerPoint
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_store_????"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "iWork.com"
+target "http://www.apple.com/iwork/"
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.apple.com/iwork/
+\end_layout
+
+\end_inset
+
+ for Apple's Keynote
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_apple_????"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsection
+Revision control
+\end_layout
+
+\begin_layout Standard
+Revision control or 
+\emph on
+versioning
+\emph default
+ is a feature that allows to keep a track of the changes that occured in
+ a document and to restore it to a previous state.
+ If a user delted a large portion of the document inadvertently and saved
+ its changes, it will still be possible, even in a different session, to
+ revert those changes.
 \end_layout
 
 \begin_layout Subsection
 Collaboration
+\end_layout
+
+\begin_layout Standard
+Collaboration is the ability for multiple user to edit a document concurrently.
+ When one user modify the content of a textual element for example, the
+ change is immediatly reflected on the documents being displayed at the
+ same time by other users.
+\end_layout
+
+\begin_layout Standard
+Collaboration is available in certain Web applications such as Google Documents,
+ Zoho Office and SlideRocket, but is also possible with Microsoft Office
+ and OpenOffice.org through external services: 
+\begin_inset CommandInset href
+LatexCommand href
+name "SharedView"
+target "http://connect.microsoft.com/site/sitehome.aspx?SiteID=94"
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://connect.microsoft.com/site/sitehome.aspx?SiteID=94
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_welcome_????"
+
+\end_inset
+
+ (Microsoft Office only) and 
+\begin_inset CommandInset href
+LatexCommand href
+name "Ulteo"
+target "http://www.ulteo.com/"
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.ulteo.com/
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_open_????"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
@@ -453,15 +730,121 @@ Online lectures
 \end_layout
 
 \begin_layout Standard
-?à la Webex?
+Online lectures are a mean to give a conference over the Internet: instead
+ of having to gather in the same physical place, participants from all over
+ the world are connected to a virtual room.
+ The lecturer has control of the slides being displayed to the audience
+ and a chat allows questions and answers to go back and forth.
 \end_layout
 
 \begin_layout Subsection
 Offline capabilities
 \end_layout
 
+\begin_layout Standard
+The advantages of an online application should not mask the associated inconveni
+ent: for an application that produces documents, being able to display or
+ modify those documents only when an Internet connection is available can
+ be issue.
+ Despite the fact that Internet can now be accessed in trains, planes and
+ subways, there are still many places and vehicles that are not yet covered.
+ Most Web applications studied here allow to export the presentations to
+ .ppt or .pdf to be viewed offline, but only Live Presentations allows to
+ create and edit presentation without any Internet connection.
+\end_layout
+
 \begin_layout Subsection
-Web embed-able
+Embed on the Web
+\end_layout
+
+\begin_layout Standard
+Certain Web applications or services allows to embed presentations directly
+ in a Web page, using either an embeded Flash object (for Flash based presentati
+ons) or an iFrame (for HTML based presentations).
+ Controls to navigate through the slides can be found under the presentation,
+ just as for most embeded videos (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Example-of-presentations"
+
+\end_inset
+
+).
+ Google Documents and 280slides, for example, allow to embed imported and
+ authored presentations in an iFrame while 
+\begin_inset CommandInset href
+LatexCommand href
+name "SlideShare"
+target "http://www.slideshare.net/"
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.slideshare.net/
+\end_layout
+
+\end_inset
+
+ is specialized in converting .ppt and .pptx files into Flash objects to be
+ embeded on any Web page.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Example-of-presentations"
+
+\end_inset
+
+Example of presentations embeded in a Web page: 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/embeded slideshare.png
+	height 17theight%
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename illustration project specifications/embeded google presentation.png
+	height 17theight%
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename illustration project specifications/embeded 280slides.png
+	height 17theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -532,47 +915,17 @@ DON'T FORGET TO CHECK THE OUTCOMES OF THE PROJECT RENAISSANCE
 \end_layout
 
 \begin_layout Standard
-?IDEA: It is not debatable that the most widespread file formats are the
- one produced by Microsoft PowerPoint ?SEARCH THE LITERATURE FOR EVIDENCES?
+commit is the new save
 \end_layout
 
 \begin_layout Standard
-Apple and Sun claim that their software are compatible with the files produced
- in Microsoft PowerPoint (either the binary .ppt or the XML based .pptx)
-\begin_inset CommandInset citation
-LatexCommand cite
-key "_impress_????,_apple_????"
-
-\end_inset
-
-.
- Although evaluating the interoperability of such files in the different
- desktop office suites is out of the scope of this project, it can be noted
- that it is in the best interest of competitors to be compatible with the
- predominant file format in order to facilitate the users' migration.
- Who would use a tool creating document which cannot be opened on their
- friends' platform of choice? Moreover, the possibility of interoperability
- is guaranteed by the recent Open Specification Promise (OSP) made by Microsoft
-\begin_inset CommandInset citation
-LatexCommand cite
-key "_microsoft_????"
-
-\end_inset
-
- concerning (but not limited to) the specification of the .ppt format as
- well as the adoption of Open Office XML as an ISO/IEC standard ?CITE THE
- STANDARDS?, which includes the specification of the .pptx format.
-\end_layout
-
-\begin_layout Standard
-?IDEA: Although this compatibility with Microsoft formats is available in
- most desktop applications, only some of the online one are compatible?
+quote about accessibility for tim berners lee
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "Project and Dissertation"
+bibfiles "Project Specification"
 options "plain"
 
 \end_inset
