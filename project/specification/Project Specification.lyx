@@ -17,6 +17,7 @@
 
 \graphics default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -79,7 +80,7 @@ The aim of this project is to design a full featured Web application that
 \begin_layout Abstract
 In doing so, the accessibility of current Web-enabled presentation will
  be evaluated, the solutions for cross-browser vector drawing and graphical
- animations will be evaluated, the validity of ZoomUI for presentation software
+ animations will be compaired, the validity of ZoomUI for presentation software
  will be assessed and the way the community will contribute to this Open
  project will be observed.
 \end_layout
@@ -94,10 +95,10 @@ A presentation is a very effective support for lecturers: using few bullet
 \emph on
 slides 
 \emph default
-such as the one presented in Figure 
+such as presented in Appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:A-typical-slide"
+reference "sec:A-typical-presentation"
 
 \end_inset
 
@@ -105,53 +106,10 @@ reference "fig:A-typical-slide"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:A-typical-slide"
-
-\end_inset
-
-A typical slide with title, bullet points, illustration and slide number.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename illustration project specifications/slide.png
-	width 50text%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 If this media is only a visual aid during a lecture, it is often their only
  written material and thus is of major importance for information dissemination
  beyond the live presentation.
-\end_layout
-
-\begin_layout Standard
-In addition to the ability to simply send a presentation file by e-mail
+ In addition to the ability to simply send a presentation file by e-mail
  or a download link on a Web page, most presentation software now have associate
 d platforms that allow to manage and share a library of such files in one
  place.
@@ -194,6 +152,12 @@ key "_graphical_????"
 \begin_layout Quotation
 
 \emph on
+\begin_inset CommandInset label
+LatexCommand label
+name "quo:Accessibility-is-a"
+
+\end_inset
+
 Accessibility is a general term used to describe the degree to which a product
  (e.g., device, service, environment) is accessible by as many people as possible.
 
@@ -214,10 +178,9 @@ The purpose of the following section is not to compare the multitude of
  what they usually have in common and what interesting innovations are integrate
 d in some of them.
  The applications studied here range between the famous Microsoft PowerPoint
- and Apple's Keynote to the growing in popularity challengers available
- online — Google Documents Presentation, Live Presentation and SlideRocket
- —, without forgetting about some obscure but nonetheless interesting solutions
- such as S5.
+ and Apple's Keynote to the growing in popularity online challengers — Google
+ Documents, SlideRocket —, without forgetting about some obscure but nonetheless
+ interesting solutions such as S5 and Slidy.
 \end_layout
 
 \begin_layout Section
@@ -226,110 +189,17 @@ The composition of the graphical user interface
 
 \begin_layout Standard
 From the observation of the screenshots from the presentation software presented
- in Figure 
+ in Appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:The-main-graphical"
+reference "sec:A-similar-GUI"
 
 \end_inset
 
 , it is possible to break down their GUI in three parts:
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:The-main-graphical"
-
-\end_inset
-
-The main graphical user interface of different presentation software: Microsoft
- PowerPoint, OpenOffice.org Impress, Keynote, Google Presentation, SlideRocket,
- Live Presentations.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename illustration project specifications/PowerPoint.png
-	height 21theight%
-
-\end_inset
-
- 
-\begin_inset Graphics
-	filename illustration project specifications/OpenOffice.org Impress.png
-	height 21theight%
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename illustration project specifications/Keynote.png
-	height 19theight%
-
-\end_inset
-
- 
-\begin_inset Graphics
-	filename illustration project specifications/Google Documents.png
-	height 19theight%
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename illustration project specifications/SlideRocket.png
-	height 19.5theight%
-
-\end_inset
-
- 
-\begin_inset Graphics
-	filename illustration project specifications/Live-documents.png
-	height 19theight%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Paragraph
 The editing panel
 \end_layout
 
@@ -341,7 +211,7 @@ This is the main and most prominent GUI component: it contains only the
  content of the text elements.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 The list of thumbnails
 \end_layout
 
@@ -353,7 +223,7 @@ On the left-hand side, the user can scroll through a list of thumbnails
  the slides such as an outline views that displays only their text content.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 The toolbars
 \end_layout
 
@@ -373,7 +243,7 @@ The following list of features are not necessarily present in all studied
  that users are likely to expect from a presentation software.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Text
 \end_layout
 
@@ -384,7 +254,7 @@ It is of course possible to add text to the slides, be it the presentation's
  color, family, etc.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Vector shapes
 \end_layout
 
@@ -393,7 +263,7 @@ Numerous predefined shapes can be inserted in a slide: rectangle, ellipses,
  lines, triangles, arrows, etc.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Illustrations
 \end_layout
 
@@ -402,7 +272,7 @@ Since presentations are a visual support for lecturers, the possibility
  to insert illustrations such as images or charts is of paramount importance.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Layout choice
 \end_layout
 
@@ -411,7 +281,7 @@ To make the composition of a slide easier, layouts offer a quick way to
  place the elements of a slide at predefined positions.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Master slide management
 \end_layout
 
@@ -425,7 +295,7 @@ master slide
  It can be seen as a visual style sheet.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Transitions
 \end_layout
 
@@ -434,7 +304,7 @@ Transitions are animations applied to two slides that succeed to one other,
  for example one fades out while the other slides from the top of the screen.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Playback
 \end_layout
 
@@ -444,7 +314,7 @@ Obviously, presentation have to be played at some point.
  the other.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Interoperability
 \end_layout
 
@@ -464,7 +334,7 @@ Some features are only to be found in the desktop software while others
  Some innovations are only present in one or two of the solutions studied.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Animations
 \end_layout
 
@@ -550,7 +420,7 @@ The animation toolbar in PowerPoint 2007
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Worldwide availability
 \end_layout
 
@@ -564,8 +434,8 @@ online nature
 \end_layout
 
 \begin_layout Itemize
-The documents created with them are instantly available everywhere the user
- is able to find a computer with an Internet connection.
+The documents created with them are instantly available everywhere, providing
+ the user has a computer with an Internet connection.
  At home, at school or at their office, they have access to all the presentation
 s they have created, without having to worry about the last place they forgot
  their USB key.
@@ -574,7 +444,7 @@ s they have created, without having to worry about the last place they forgot
 \begin_layout Itemize
 Users do not have to worry either about backup.
  Web applications usually rely on redundant storage that are in all case
- much more reliable than any personal computer.
+ much more reliable than a personal computer.
 \end_layout
 
 \begin_layout Itemize
@@ -589,7 +459,7 @@ The Web is supposed to be cross-platform: its content can be accessed by
 
 \begin_layout Standard
 It can be noted that the first two advantages have been balanced by the
- aparition of online platforms for some of the desktop applications (
+ apparition of online platforms for some of the desktop applications (
 \begin_inset CommandInset href
 LatexCommand href
 name "OfficeLive"
@@ -642,7 +512,7 @@ key "_apple_????"
 )
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Revision control
 \end_layout
 
@@ -651,21 +521,21 @@ Revision control or
 \emph on
 versioning
 \emph default
- is a feature that allows to keep a track of the changes that occured in
+ is a feature that allows to keep a track of the changes that occurred in
  a document and to restore it to a previous state.
- If a user delted a large portion of the document inadvertently and saved
+ If a user deleted a large portion of the document inadvertently and saved
  its changes, it will still be possible, even in a different session, to
  revert those changes.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Collaboration
 \end_layout
 
 \begin_layout Standard
 Collaboration is the ability for multiple user to edit a document concurrently.
  When one user modify the content of a textual element for example, the
- change is immediatly reflected on the documents being displayed at the
+ change is immediately reflected on the documents being displayed at the
  same time by other users.
 \end_layout
 
@@ -725,7 +595,7 @@ key "_open_????"
 .
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Online lectures
 \end_layout
 
@@ -737,7 +607,7 @@ Online lectures are a mean to give a conference over the Internet: instead
  and a chat allows questions and answers to go back and forth.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Offline capabilities
 \end_layout
 
@@ -753,16 +623,16 @@ ent: for an application that produces documents, being able to display or
  create and edit presentation without any Internet connection.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Paragraph
 Embed on the Web
 \end_layout
 
 \begin_layout Standard
-Certain Web applications or services allows to embed presentations directly
- in a Web page, using either an embeded Flash object (for Flash based presentati
-ons) or an iFrame (for HTML based presentations).
+Certain applications or services allow to embed presentations directly in
+ a Web page, using either an embedded Flash or Silverlight object, or even
+ an iFrame (for HTML based presentations).
  Controls to navigate through the slides can be found under the presentation,
- just as for most embeded videos (see Figure 
+ just as for most embedded videos (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Example-of-presentations"
@@ -790,7 +660,7 @@ http://www.slideshare.net/
 \end_inset
 
  is specialized in converting .ppt and .pptx files into Flash objects to be
- embeded on any Web page.
+ embedded on any Web page.
 \end_layout
 
 \begin_layout Standard
@@ -809,7 +679,7 @@ name "fig:Example-of-presentations"
 
 \end_inset
 
-Example of presentations embeded in a Web page: 
+Example of presentations embedded in a Web page: 
 \end_layout
 
 \end_inset
@@ -848,15 +718,305 @@ Example of presentations embeded in a Web page:
 \end_layout
 
 \begin_layout Section
-Accessibility of the presentations on the Web
+Accessibility of presentations on the Web
+\end_layout
+
+\begin_layout Standard
+Everybody does not access to the Web in the same way: although most people
+ are connected with a desktop or laptop computer that has a normal screen,
+ a mouse and a keyboard, more and more people are browsing the Web from
+ mobile devices such as PDAs and 
+\emph on
+smart-phones
+\emph default
+, while people with disabilities are accessing Web content using different
+ assistive technologies.
+ There are only few presentation software that claim to produce accessible
+ presentation for the Web, all of them requiring authors to have technical
+ skills (being able to write HTML)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_html_????,_s5:simple_????"
+
+\end_inset
+
+.
+ Claiming that an application designed for a wider user base and producing
+ accessible documents would be a true innovation requires to evaluate the
+ actual accessibility of current solutions.
+\end_layout
+
+\begin_layout Standard
+The Web ?C? Accessibility Guidelines (WCAG) offers an ?synonym:exhaustif?
+ ?referential? to evaluate the accessibility of Web contents/applications.
+ In the case of Web presentations, it should be noted that compliance to
+ the WCAG depends on the accessibility of both the document and the piece
+ software used to display it in the browser (the 
+\emph on
+player
+\emph default
+).
+ Although it is relevant to evaluate the players, the document can only
+ be accessible if the author is ?sensibilisés? to accessibility issues.
+ For example the text alternatives have to be provided for visual content[ref
+ guidleine WCAG] and only certain colour palettes can be used when considering
+ ?daltonist? users[ref guidleine WCAG].
+ Nevertheless it is still possible to evaluate the 
+\series bold
+potential 
+\series default
+accessibility of the documents ?à la lumière de? their underlying technolgy:
+ does it guarentee that all users 
+\series bold
+can
+\series default
+ have access to the same information? And what about its penetration on
+ mobile platforms?
 \end_layout
 
 \begin_layout Subsection
-Flash format
+The nature of information in presentations
+\end_layout
+
+\begin_layout Standard
+To ?saisir? the nature of information in this particular media, an hypotetical
+ one can be studied (see Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:A-typical-presentation"
+
+\end_inset
+
+).
+ The information appears to be primarily carried out by the text and illustratio
+ns of the slides.
+ But the ability to distinguish the different slides and to see the appearance
+ of the text elements (their position, their different size, color and possible
+ emphase) allows to identify the title of the presentation, its subtitle
+ to differentiate the headings of the slide from the bullet points and to
+ ?recognise/syn:identify? a quote and its author.
+ If those visual properties were removed, the presentation would actually
+ look as in Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:A-text-only-presentation"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The presentation appears much harder to understand when its structure and
+ the semantic (i.e.
+ the nature, the role) of its content is removed.
+ There is more to a document's information than its text content and illustratio
+ns.
+ This fact is worth being noted because some visitors of the Web pages were
+ the presentations are hosted do not have access to this visual information.
+ Indeed, visually impaired persons are using screen readers which read aloud
+ the page or alternatively ?clavier braille dynamique?.
+ Those assistive technologies 
+\emph on
+read 
+\emph default
+the content of the page sequentially, but they can use keyboard shortcuts
+ to access directly the section that interests them, for example by reading
+ only the headings.
+ Likewise, Web crawlers indexing the content for search engines are not
+ taking its appearance into account.
+\end_layout
+
+\begin_layout Standard
+It has been ?constaté? that three different technologies are being employed
+ to publish presentations on the Internet, each of them not offering the
+ same level of accessibility:
+\end_layout
+
+\begin_layout Itemize
+HTML is being used in Google Presentation, 280Slides, S5, Slidy and is one
+ of the export format available in Microsoft PowerPoint and OpenOffice.org
+ Impress
+\end_layout
+
+\begin_layout Itemize
+Flash is being used in SlideRocket, Live-Documents Presentations, SlideShare
+ and is one of the export format available in OpenOffice.org Impress
+\end_layout
+
+\begin_layout Itemize
+Silverlight is a possible conversion format from .pptx files using pptx2silverlig
+ht or Save To Silverlight
+\end_layout
+
+\begin_layout Subsubsection
+HTML
+\end_layout
+
+\begin_layout Standard
+HTML is great
+\end_layout
+
+\begin_layout Standard
+state that semantic is used by Web crawlers and that search engines return
+ results were the query is found in headings first.
 \end_layout
 
 \begin_layout Subsection
-HTML based format
+Mobile penetration
+\end_layout
+
+\begin_layout Subsection
+Testing the accessibility of existing presentation players
+\end_layout
+
+\begin_layout Standard
+Explain protocol
+\end_layout
+
+\begin_layout Standard
+Results are summarized in Table
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+zob
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+solution
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+content can be read
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+semantic and structure are retranscrits
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+tab key functionnal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+heading key 
+\emph default
+functionnal
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
@@ -885,6 +1045,11 @@ s accessible on the Web and some of them even require additional plugins
  that restrain their universal availability.
  On the other hand, the HTML5 specification is being developed and it could
  bring some answers to these issues.
+ LATER: the purpose of this project is not to make presentations accessible
+ to a particular kind of population such as people with visual impairments,
+ but rather to make sure that the content will be possible to adapt in the
+ future to particular devices, and the best solution for that is to use
+ HTML
 \end_layout
 
 \begin_layout Section
@@ -906,27 +1071,271 @@ Investigate the potential of HTML5 in terms of accessibility and plugin-less-nes
 s
 \end_layout
 
-\begin_layout Section
-Planning
-\end_layout
-
-\begin_layout Standard
-DON'T FORGET TO CHECK THE OUTCOMES OF THE PROJECT RENAISSANCE
-\end_layout
-
-\begin_layout Standard
-commit is the new save
-\end_layout
-
-\begin_layout Standard
-quote about accessibility for tim berners lee
-\end_layout
-
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "Project Specification"
 options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:A-typical-presentation"
+
+\end_inset
+
+A typical presentation
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/slide title.png
+	height 31theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/slide.png
+	height 31theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/slide2.png
+	height 31theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:A-text-only-presentation"
+
+\end_inset
+
+A text-only presentation
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename illustration project specifications/presentation blind.png
+	height 75theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:A-similar-GUI"
+
+\end_inset
+
+A similar GUI for different presentation software
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features>
+<column alignment="center" valignment="middle" width="48text%">
+<column alignment="center" valignment="middle" width="48text%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename illustration project specifications/PowerPoint.png
+	width 49text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Microsoft PowerPoint 2007
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename illustration project specifications/Keynote.png
+	width 49text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Apple Keynote
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename illustration project specifications/OpenOffice.org Impress.png
+	width 49text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+OpenOffice.org Impress
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename illustration project specifications/Google Documents.png
+	width 49text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Google Documents Presentation
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename illustration project specifications/SlideRocket.png
+	width 49text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+SlideRocket
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename illustration project specifications/Live-documents.png
+	width 49text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Live-Documents Presentations
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
 
 \end_inset
 
