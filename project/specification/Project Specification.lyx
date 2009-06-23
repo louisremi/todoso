@@ -58,13 +58,14 @@ Louis-Rémi Babé
 The number of online alternatives to Microsoft PowerPoint has been rapidly
  growing in the past three years thanks to the emergence of appropriate
  Web technologies.
- They add a large number of interesting features to their desktop counterpart
+ They add a large number of interesting features to their desktop counterparts
  such as collaboration and online lectures.
  However, neither the traditional desktop applications nor their online
- alternative succeed to produce presentations that would be accessible from
- all Internet users on a Web page.
+ alternatives succeed in producing presentations that would be accessible
+ to all Internet users on a Web page.
  Moreover, the Graphical User Interface (GUI) of presentation software has
- not evolved for ten years, while innovative concepts of interface rose.
+ not evolved for ten years, while innovative concepts of interface have
+ arisen.
 \end_layout
 
 \begin_layout Abstract
@@ -89,7 +90,7 @@ A presentation is a very effective support for lecturers: using few bullet
  help to clarify the structure of a talk, to highlight the important information
 , to show the development of an idea in an highly visual visual way either
  for an informational or a persuasive purpose.
- A typical presentation consist of a set of 
+ A typical presentation consists of a set of 
 \emph on
 slides 
 \emph default
@@ -109,10 +110,9 @@ If this media is only a visual aid during a lecture, it is often their only
  beyond the live presentation.
  In addition to the ability to simply send a presentation file by e-mail
  or a download link on a Web page, most presentation software now have associate
-d platforms that allow to manage and share a library of such files in one
- place.
- But it is much harder to make a presentation accessible by embedding it
- directly in a Web page: so far, the only solutions that produces a truly
+d platforms that allow management and sharing of such files in one place.
+ It is much harder, however, to make a presentation accessible by embedding
+ it directly in a Web page: so far, the only solutions that produce a truly
  accessible result are not meant for casual users and the presentations
  are often simplified by removing their animations.
 \end_layout
@@ -172,9 +172,9 @@ key "_accessibility_????"
 
 \begin_layout Standard
 The purpose of the following section is not to compare the multitude of
- solutions available on the desktop platforms and online but rather to present
- what they usually have in common and what interesting innovations are integrate
-d in some of them.
+ solutions available on the desktop platforms and online, but rather to
+ present what they usually have in common and what interesting innovations
+ are integrated in some of them.
  The applications studied here range between the famous Microsoft PowerPoint
  and Apple's Keynote to the growing in popularity online challengers — Google
  Documents, SlideRocket —, without forgetting about some obscure but nonetheless
@@ -194,7 +194,7 @@ reference "sec:A-similar-GUI"
 
 \end_inset
 
-, it is possible to break down their GUI in three parts:
+, it is possible to break down their GUI into three parts:
 \end_layout
 
 \begin_layout Paragraph
@@ -226,7 +226,7 @@ The toolbars
 \end_layout
 
 \begin_layout Standard
-Although spread in different ways through the user interface, the toolbars
+Although spread in different ways throughout the user interface, the toolbars
  are more generally to be found at the top of the screen and details are
  available either in sub-menus or the right-hand side.
 \end_layout
@@ -307,9 +307,9 @@ Playback
 \end_layout
 
 \begin_layout Standard
-Obviously, presentation have to be played at some point.
- The lecturer need to be able to display the slide in full-screen, one after
- the other.
+Obviously, presentations have to be played at some point.
+ The lecturer need to be able to display the slides in full-screen, one
+ after the other.
 \end_layout
 
 \begin_layout Paragraph
@@ -317,9 +317,9 @@ Interoperability
 \end_layout
 
 \begin_layout Standard
-Since the predominant file formats for presentations are the one produced
- by Microsoft PowerPoint, numerous application aim at being compatible with
- .ppt and .pptx file to make the user migration easier.
+Since the predominant file formats for presentations are those produced
+ by Microsoft PowerPoint, numerous applications aim at being compatible
+ with .ppt and .pptx file to make the user migration easier.
 \end_layout
 
 \begin_layout Section
@@ -339,7 +339,7 @@ Animations
 \begin_layout Standard
 If most applications offer the possibility to add transitions between slides,
  it is usually possible to animate the elements of a slide only on the desktop.
- To do so, once the appropriate toolbar (see Figure 
+ To do so, once the appropriate toolbar has been activated (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:The-animation-toolbar"
@@ -435,13 +435,13 @@ online nature
 The documents created with them are instantly available everywhere, providing
  the user has a computer with an Internet connection.
  At home, at school or at their office, they have access to all the presentation
-s they have created, without having to worry about the last place they forgot
+s they have created, without having to worry about the last place they left
  their USB key.
 \end_layout
 
 \begin_layout Itemize
 Users do not have to worry either about backup.
- Web applications usually rely on redundant storage that are in all case
+ Web applications usually rely on redundant storage that are in all cases
  much more reliable than a personal computer.
 \end_layout
 
@@ -452,7 +452,7 @@ The Web is supposed to be cross-platform: its content can be accessed by
  Since all computers are now shipped with a browser and although there are
  still some browser-specific technologies (vector graphics for example),
  a well-thought-out Web application can be used by any user without requiring
- to install any additional software on the client's configuration.
+ installation of any additional software on the client's configuration.
 \end_layout
 
 \begin_layout Standard
@@ -519,8 +519,8 @@ Revision control or
 \emph on
 versioning
 \emph default
- is a feature that allows to keep a track of the changes that occurred in
- a document and to restore it to a previous state.
+ is a feature that allows tracking the changes made to a document and to
+ restore it to a previous state.
  If a user deleted a large portion of the document inadvertently and saved
  its changes, it will still be possible, even in a different session, to
  revert those changes.
@@ -531,8 +531,8 @@ Collaboration
 \end_layout
 
 \begin_layout Standard
-Collaboration is the ability for multiple user to edit a document concurrently.
- When one user modify the content of a textual element for example, the
+Collaboration is the ability for multiple users to edit a document concurrently.
+ When one user modifies the content of a textual element for example, the
  change is immediately reflected on the documents being displayed at the
  same time by other users.
 \end_layout
@@ -598,7 +598,7 @@ Online lectures
 \end_layout
 
 \begin_layout Standard
-Online lectures are a mean to give a conference over the Internet: instead
+Online lectures are a means of giving a conference over the Internet: instead
  of having to gather in the same physical place, participants from all over
  the world are connected to a virtual room.
  The lecturer has control of the slides being displayed to the audience
@@ -611,14 +611,14 @@ Offline capabilities
 
 \begin_layout Standard
 The advantages of an online application should not mask the associated inconveni
-ent: for an application that produces documents, being able to display or
- modify those documents only when an Internet connection is available can
- be issue.
+ents: for an application that produces documents, being able to display
+ or modify those documents only when an Internet connection is available
+ can be issue.
  Despite the fact that Internet can now be accessed in trains, planes and
  subways, there are still many places and vehicles that are not yet covered.
- Most Web applications studied here allow to export the presentations to
- .ppt or .pdf to be viewed offline, but only Live Presentations allows to
- create and edit presentation without any Internet connection.
+ Most Web applications studied here allow presentations to be exported to
+ .ppt or .pdf, but only Live Presentations allows for the creation and editing
+ of presentations without any Internet connection.
 \end_layout
 
 \begin_layout Paragraph
@@ -626,7 +626,7 @@ Embed on the Web
 \end_layout
 
 \begin_layout Standard
-Certain applications or services allow to embed presentations directly in
+Certain applications or services allow presentations to be embedded into
  a Web page, using either an embedded Flash or Silverlight object, or even
  an iFrame (for HTML based presentations).
  Controls to navigate through the slides can be found under the presentation,
@@ -638,8 +638,8 @@ reference "fig:Example-of-presentations"
 \end_inset
 
 ).
- Google Documents and 280slides, for example, allow to embed imported and
- authored presentations in an iFrame while 
+ Google Documents and 280slides, for example, allow presentations to be
+ embedded in an iFrame while 
 \begin_inset CommandInset href
 LatexCommand href
 name "SlideShare"
@@ -657,8 +657,8 @@ http://www.slideshare.net/
 
 \end_inset
 
- is specialized in converting .ppt and .pptx files into Flash objects to be
- embedded on any Web page.
+ is specialized in converting .ppt and .pptx files into Flash objects for
+ Web pages.
 \end_layout
 
 \begin_layout Standard
@@ -729,9 +729,8 @@ smart-phones
 \emph default
 , while people with disabilities are accessing Web content using different
  assistive technologies.
- The only few presentation software that claim to produce accessible presentatio
-n for the Web require authors to have technical skills (being able to write
- HTML)
+ The only applications that claim to produce accessible presentation for
+ the Web require authors to have technical skills (being able to write HTML)
 \begin_inset CommandInset citation
 LatexCommand cite
 key "_html_????,_s5:simple_????"
@@ -754,7 +753,7 @@ player
 ).
  Although it is relevant to evaluate the players, the document can only
  be accessible if the author is aware of accessibility issues.
- For example the text alternatives have to be provided for visual content
+ For example, the text alternatives have to be provided for visual content
  (see Guideline 1.1 of the WCAG2
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -762,14 +761,14 @@ key "_web_????"
 
 \end_inset
 
-) and the foreground should be clearly separated from the foreground (see
+) and the foreground should be clearly separated from the background (see
  Guideline 1.4).
  Nevertheless it is still possible to evaluate the 
 \series bold
 potential 
 \series default
 accessibility of the documents when considering the nature of a presentation:
- does it guarentee that all users 
+ does it guarantee that all users 
 \series bold
 can
 \series default
@@ -782,7 +781,7 @@ The nature of information in presentations
 \end_layout
 
 \begin_layout Standard
-To seize the nature of information in this particular media, an hypotetical
+To seize the nature of information in this particular media, an hypothetical
  one can be studied (see Appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -793,11 +792,11 @@ reference "sec:A-typical-presentation"
 ).
  The information appears to be primarily carried out by the text and illustratio
 ns of the slides.
- But the ability to distinguish the different slides and to see the appearance
- of the text elements (their position, their different size, color and possible
- emphase) allows to identify the title of the presentation, its subtitle,
- to differentiate the headings of the slide from the bullet points and to
- recognise a quote and its author.
+ However, the ability to distinguish the different slides and to see the
+ appearance of the text elements (their position, their different size,
+ color and possible emphasis) allows for identification of the title of
+ the presentation, its subtitle, to differentiate the headings of the slide
+ from the bullet points and to recognize a quote and its author.
  If those visual properties were removed, the presentation would actually
  look as in Appendix 
 \begin_inset CommandInset ref
@@ -815,8 +814,8 @@ The presentation appears much harder to understand when its structure and
  the nature, the role) of its content is removed.
  There is more to a document's information than its text content and illustratio
 ns.
- This fact is worth being noted because some visitors of the Web pages were
- the presentations are hosted do not have access to this visual information.
+ The fact is worth noting because some visitors of the Web pages where the
+ presentations are hosted do not have access to this visual information.
  Indeed, visually impaired persons are using screen readers which read aloud
  the page or alternatively refreshable braille display.
  Those assistive technologies 
@@ -824,7 +823,7 @@ ns.
 read 
 \emph default
 the content of the page sequentially, but keyboard shortcuts can be used
- to access directly a section, for example by reading only the headings.
+ to access a section directly, for example by reading only the headings.
  Likewise, Web crawlers indexing the content for search engines are not
  taking its appearance into account, but they do give more importance to
  the texts identified as headings.
@@ -843,8 +842,8 @@ Evaluating the accessibility of current presentations on the Web consisted
 testing them using a screen reader (JAWS) with Internet Explorer 8 to inform
  the possibility for visually impaired users to access the information (both
  text content and semantic) and to navigate in the presentation using the
- keyboard (which implies that buttons are correctly labelled and activable
- using the 
+ keyboard (which implies that buttons are correctly labeled and can be used
+ with the 
 \emph on
 Tab
 \emph default
@@ -1149,7 +1148,7 @@ No
 \begin_inset Text
 
 \begin_layout Plain Layout
-buttons are un-labelled
+buttons are un-labeled
 \end_layout
 
 \end_inset
@@ -1674,9 +1673,9 @@ Flash
 \end_layout
 
 \begin_layout Standard
-is a popular client-side Web technology that allows to display vector graphics,
- custom fonts, audio and video in a Web page through a browser plugin: the
- 
+is a popular client-side Web technology that allows for the display of vector
+ graphics, custom fonts, audio and video in a Web page through a browser
+ plugin: the 
 \begin_inset CommandInset href
 LatexCommand href
 name "Flash Player"
@@ -1709,7 +1708,7 @@ key "_adobe_????"
  Flash Player available yet (e.g.
  the iPhone and Google's Android platform).
  It should also be noted that the accessibility layer offered by Flash is
- only used by Microsoft Active Accessibility (MSAA) which in turns exposes
+ only used by Microsoft Active Accessibility (MSAA) which in turn exposes
  appropriate content to assistive technologies
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1719,7 +1718,7 @@ key "asakawa_accessibility_2007"
 
 .
  The consequence is that Flash is currently only accessible to visually
- impaired users on the Microsoft Windows operating system.
+ impaired users on the Microsoft Windows OS.
 \end_layout
 
 \begin_layout Paragraph
@@ -1768,11 +1767,11 @@ HTML & JavaScript
 
 \begin_layout Standard
 and the associated styling language (CSS) are historically the base of Web
- technologies and still the predominent ones.
+ technologies and still the predominant ones.
  However, the large variety of Web browsers available and the obsolescence
  of some of them (Internet Explorer 6 and IE Mobile are respectively 8 and
- 7 years old) is likely to result in difficulties to have a complex Web
- page display the same way across browsers.
+ 7 years old) is likely to result in difficulties in displaying a complex
+ Web page in the same way across browsers.
  Being a plain-text semantic markup language, HTML is fully accessible to
  assistive technologies and Web crawlers.
 \end_layout
@@ -1782,7 +1781,7 @@ VML
 \end_layout
 
 \begin_layout Standard
-is a markup language used to insert vector graphics in HTML documents but
+is a markup language used to insert vector graphics in HTML documents, but
  is only implemented in Internet Explorer.
  Other Web browsers implement an equivalent language: SVG.
 \end_layout
@@ -1796,12 +1795,13 @@ The previous
 \emph on
 state of the art
 \emph default
- allows to pinpoint three caracteristics of existing presentation software:
+ allows to pinpoint three characteristics of existing presentation software:
 \end_layout
 
 \begin_layout Enumerate
-they are now very rich applications, allowing to produce highly customizable
- and visually appealing documents in which multimedia assets can be embedded.
+they are now very rich applications, allowing for the production of highly
+ customizable and visually appealing documents in which multimedia assets
+ can be embedded.
  The Web enabled a further leap in feature richness, offering a better availabil
 ity of documents, new possibilities of collaboration and distribution.
 \end_layout
@@ -1809,13 +1809,13 @@ ity of documents, new possibilities of collaboration and distribution.
 \begin_layout Enumerate
 if most of them have significant original features that differentiates them
  from their competitors, there are only slight variations in their GUI that
- has almost not evolved for ten years.
+ has evolved only minimally over a ten year period.
 \end_layout
 
 \begin_layout Enumerate
 there are no presentations on the Web that are able to both reproduce their
- information as a whole through assistive technologies and allow to navigate
- the slides with a keyboard.
+ information as a whole through assistive technologies and allow the navigation
+ of slides with a keyboard.
 \end_layout
 
 \begin_layout Standard
@@ -1830,6 +1830,116 @@ Trying to compete in term of feature richness with existing solutions is
  contributors.
  The first aim of this project will be to encourage individuals to participate
  in this project and mainly in its implementation phase.
+\end_layout
+
+\begin_layout Enumerate
+All presentation software use a GUI that is described as an 
+\emph on
+Overview+Detail
+\emph default
+ interface
+\emph on
+ 
+\emph default
+by Andy Cockburn.
+ But other concepts of GUI such as 
+\emph on
+Zooming 
+\emph default
+and 
+\emph on
+Focus+Context
+\emph default
+ are to be found on the Web
+\begin_inset CommandInset citation
+LatexCommand cite
+key "cockburn_review_2008"
+
+\end_inset
+
+.
+ The second aim of this project is to assess alternative concepts of interface
+ for presentation software.
+ The ideal would be to build an interface that would give a strong identity
+ to the application and be more intuitive than the traditional one.
+\end_layout
+
+\begin_layout Enumerate
+It appears that there is a large space for improvement in the accessibility
+ of presentations on the Web.
+ The third objective of this project will be to allow authors to produce
+ accessible presentations with an application that has a graphical user
+ interface.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
