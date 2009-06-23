@@ -64,8 +64,7 @@ The number of online alternatives to Microsoft PowerPoint has been rapidly
  alternative succeed to produce presentations that would be accessible from
  all Internet users on a Web page.
  Moreover, the Graphical User Interface (GUI) of presentation software has
- not evolved for ten years, while innovative concepts of GUI (e.g.
- ZoomUI) rose.
+ not evolved for ten years, while innovative concepts of interface rose.
 \end_layout
 
 \begin_layout Abstract
@@ -78,11 +77,10 @@ The aim of this project is to design a full featured Web application that
 \end_layout
 
 \begin_layout Abstract
-In doing so, the accessibility of current Web-enabled presentation will
- be evaluated, the solutions for cross-browser vector drawing and graphical
- animations will be compaired, the validity of ZoomUI for presentation software
- will be assessed and the way the community will contribute to this Open
- project will be observed.
+In doing so, the accessibility of Web-enabled presentation will be evaluated,
+ the validity of an alternative GUI for presentation software will be assessed
+ and the way external individuals can be encouraged to contribute to the
+ project will be investigated.
 \end_layout
 
 \begin_layout Standard
@@ -731,9 +729,9 @@ smart-phones
 \emph default
 , while people with disabilities are accessing Web content using different
  assistive technologies.
- There are only few presentation software that claim to produce accessible
- presentation for the Web, all of them requiring authors to have technical
- skills (being able to write HTML)
+ The only few presentation software that claim to produce accessible presentatio
+n for the Web require authors to have technical skills (being able to write
+ HTML)
 \begin_inset CommandInset citation
 LatexCommand cite
 key "_html_????,_s5:simple_????"
@@ -741,14 +739,12 @@ key "_html_????,_s5:simple_????"
 \end_inset
 
 .
- Claiming that an application designed for a wider user base and producing
- accessible documents would be a true innovation requires to evaluate the
- actual accessibility of current solutions.
+ The actual accessibility of the existing solutions still needs to be tested.
 \end_layout
 
 \begin_layout Standard
-The Web ?C? Accessibility Guidelines (WCAG) offers an ?synonym:exhaustif?
- ?referential? to evaluate the accessibility of Web contents/applications.
+The Web Content Accessibility Guidelines (WCAG) offers a comprehensive referenti
+al to evaluate the accessibility of Web contents/applications.
  In the case of Web presentations, it should be noted that compliance to
  the WCAG depends on the accessibility of both the document and the piece
  software used to display it in the browser (the 
@@ -757,21 +753,28 @@ player
 \emph default
 ).
  Although it is relevant to evaluate the players, the document can only
- be accessible if the author is ?sensibilisés? to accessibility issues.
- For example the text alternatives have to be provided for visual content[ref
- guidleine WCAG] and only certain colour palettes can be used when considering
- ?daltonist? users[ref guidleine WCAG].
+ be accessible if the author is aware of accessibility issues.
+ For example the text alternatives have to be provided for visual content
+ (see Guideline 1.1 of the WCAG2
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_web_????"
+
+\end_inset
+
+) and the foreground should be clearly separated from the foreground (see
+ Guideline 1.4).
  Nevertheless it is still possible to evaluate the 
 \series bold
 potential 
 \series default
-accessibility of the documents ?à la lumière de? their underlying technolgy:
+accessibility of the documents when considering the nature of a presentation:
  does it guarentee that all users 
 \series bold
 can
 \series default
- have access to the same information? And what about its penetration on
- mobile platforms?
+ have access to the same information? And what about the penetration of
+ the underlying technology?
 \end_layout
 
 \begin_layout Subsection
@@ -779,7 +782,7 @@ The nature of information in presentations
 \end_layout
 
 \begin_layout Standard
-To ?saisir? the nature of information in this particular media, an hypotetical
+To seize the nature of information in this particular media, an hypotetical
  one can be studied (see Appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -792,9 +795,9 @@ reference "sec:A-typical-presentation"
 ns of the slides.
  But the ability to distinguish the different slides and to see the appearance
  of the text elements (their position, their different size, color and possible
- emphase) allows to identify the title of the presentation, its subtitle
+ emphase) allows to identify the title of the presentation, its subtitle,
  to differentiate the headings of the slide from the bullet points and to
- ?recognise/syn:identify? a quote and its author.
+ recognise a quote and its author.
  If those visual properties were removed, the presentation would actually
  look as in Appendix 
 \begin_inset CommandInset ref
@@ -815,67 +818,60 @@ ns.
  This fact is worth being noted because some visitors of the Web pages were
  the presentations are hosted do not have access to this visual information.
  Indeed, visually impaired persons are using screen readers which read aloud
- the page or alternatively ?clavier braille dynamique?.
+ the page or alternatively refreshable braille display.
  Those assistive technologies 
 \emph on
 read 
 \emph default
-the content of the page sequentially, but they can use keyboard shortcuts
- to access directly the section that interests them, for example by reading
- only the headings.
+the content of the page sequentially, but keyboard shortcuts can be used
+ to access directly a section, for example by reading only the headings.
  Likewise, Web crawlers indexing the content for search engines are not
- taking its appearance into account.
-\end_layout
-
-\begin_layout Standard
-It has been ?constaté? that three different technologies are being employed
- to publish presentations on the Internet, each of them not offering the
- same level of accessibility:
-\end_layout
-
-\begin_layout Itemize
-HTML is being used in Google Presentation, 280Slides, S5, Slidy and is one
- of the export format available in Microsoft PowerPoint and OpenOffice.org
- Impress
-\end_layout
-
-\begin_layout Itemize
-Flash is being used in SlideRocket, Live-Documents Presentations, SlideShare
- and is one of the export format available in OpenOffice.org Impress
-\end_layout
-
-\begin_layout Itemize
-Silverlight is a possible conversion format from .pptx files using pptx2silverlig
-ht or Save To Silverlight
-\end_layout
-
-\begin_layout Subsubsection
-HTML
-\end_layout
-
-\begin_layout Standard
-HTML is great
-\end_layout
-
-\begin_layout Standard
-state that semantic is used by Web crawlers and that search engines return
- results were the query is found in headings first.
+ taking its appearance into account, but they do give more importance to
+ the texts identified as headings.
 \end_layout
 
 \begin_layout Subsection
-Mobile penetration
-\end_layout
-
-\begin_layout Subsection
-Testing the accessibility of existing presentation players
+Protocol & Tests
 \end_layout
 
 \begin_layout Standard
-Explain protocol
+Evaluating the accessibility of current presentations on the Web consisted
+ of:
+\end_layout
+
+\begin_layout Itemize
+testing them using a screen reader (JAWS) with Internet Explorer 8 to inform
+ the possibility for visually impaired users to access the information (both
+ text content and semantic) and to navigate in the presentation using the
+ keyboard (which implies that buttons are correctly labelled and activable
+ using the 
+\emph on
+Tab
+\emph default
+ and 
+\emph on
+Enter
+\emph default
+ keys),
+\end_layout
+
+\begin_layout Itemize
+testing them using only the keyboard with Internet Explorer 8 and Firefox
+ 3 to inform the possibility for physically handicapped users to navigate
+ the presentation.
+ The results might be different than in the previous test because screen
+ readers often prevent certain keys to be used for navigation (such as arrows).
 \end_layout
 
 \begin_layout Standard
-Results are summarized in Table
+Results of these tests are available in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Accessibility-evaluation-of"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -885,14 +881,16 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
-zob
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Accessibility-evaluation-of"
+
+\end_inset
+
+Accessibility evaluation of presentations on the Web
 \end_layout
 
 \end_inset
@@ -901,20 +899,23 @@ zob
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="5">
-<features>
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<lyxtabular version="3" rows="11" columns="7">
+<features rotate="true">
+<column alignment="center" valignment="top" width="15theight%">
+<column alignment="center" valignment="top" width="5theight%">
+<column alignment="center" valignment="top" width="10theight%">
+<column alignment="center" valignment="top" width="15theight%">
+<column alignment="center" valignment="top" width="15theight%">
+<column alignment="center" valignment="top" width="10theight%">
+<column alignment="center" valignment="top" width="10theight%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-solution
+Solution
 \end_layout
 
 \end_inset
@@ -923,7 +924,7 @@ solution
 \begin_inset Text
 
 \begin_layout Plain Layout
-content can be read
+Text is read
 \end_layout
 
 \end_inset
@@ -932,7 +933,7 @@ content can be read
 \begin_inset Text
 
 \begin_layout Plain Layout
-semantic and structure are retranscrits
+Semantic of the elements is described
 \end_layout
 
 \end_inset
@@ -941,7 +942,35 @@ semantic and structure are retranscrits
 \begin_inset Text
 
 \begin_layout Plain Layout
-tab key functionnal
+Buttons are described
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tab and Enter allow to navigate
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+When JAWS is in use
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Keyboard allows to navigate
 \end_layout
 
 \end_inset
@@ -950,11 +979,594 @@ tab key functionnal
 \begin_inset Text
 
 \begin_layout Plain Layout
+Technology
+\end_layout
 
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Google embedded player
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Only bullet-points
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+presented as 
 \emph on
-heading key 
-\emph default
-functionnal
+graphics
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HTML & JavaScript
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+280Slides embedded player
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Only bullet-points
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Can only navigate to next slide when a specific hidden input gains focus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HTML & JavaScript
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slideshare embedded player
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+buttons are un-labelled
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flash
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SlideRocket embedded player
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flash
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OpenOffice Flash export
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No buttons
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flash
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OpenOffice HTML export
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HTML & JavaScript
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PowerPoint HTML export
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Links allow to directly access a slide
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HTML/VML & JavaScript
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Save To Silverlight
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Silverlight
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Slidy
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Links allow to directly access a slide
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+HTML & JavaScript
 \end_layout
 
 \end_inset
@@ -965,7 +1577,7 @@ functionnal
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+S5
 \end_layout
 
 \end_inset
@@ -974,7 +1586,7 @@ functionnal
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Yes
 \end_layout
 
 \end_inset
@@ -983,7 +1595,7 @@ functionnal
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Yes
 \end_layout
 
 \end_inset
@@ -992,7 +1604,25 @@ functionnal
 \begin_inset Text
 
 \begin_layout Plain Layout
+No buttons
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+No
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Yes
 \end_layout
 
 \end_inset
@@ -1001,7 +1631,7 @@ functionnal
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+HTML & JavaScript
 \end_layout
 
 \end_inset
@@ -1019,56 +1649,187 @@ functionnal
 
 \end_layout
 
+\begin_layout Subsection
+Technology penetration
+\end_layout
+
+\begin_layout Standard
+An obviously important component of the accessibility of current solutions
+ is their underlying technology: If this technology is only compatible with
+ a certain platform, users of alternative platforms will not be able to
+ access it.
+ The last column of the Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Accessibility-evaluation-of"
+
+\end_inset
+
+ shows that four different technologies are used to display presentations
+ on the Web: Flash, Silverlight, HTML & JavaScript as well as VML.
+\end_layout
+
+\begin_layout Paragraph
+Flash
+\end_layout
+
+\begin_layout Standard
+is a popular client-side Web technology that allows to display vector graphics,
+ custom fonts, audio and video in a Web page through a browser plugin: the
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "Flash Player"
+target "http://get.adobe.com/flashplayer/"
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://get.adobe.com/flashplayer/
+\end_layout
+
+\end_inset
+
+.
+ Along with its multimedia capabilities, Flash's main advantage is its market
+ penetration: Adobe claims that it is available on 99% of Internet-enabled
+ desktops 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_adobe_????"
+
+\end_inset
+
+, which makes it a recognized cross-browser technology.
+ However, numerous mobile devices, including recent ones, do not have any
+ Flash Player available yet (e.g.
+ the iPhone and Google's Android platform).
+ It should also be noted that the accessibility layer offered by Flash is
+ only used by Microsoft Active Accessibility (MSAA) which in turns exposes
+ appropriate content to assistive technologies
+\begin_inset CommandInset citation
+LatexCommand cite
+key "asakawa_accessibility_2007"
+
+\end_inset
+
+.
+ The consequence is that Flash is currently only accessible to visually
+ impaired users on the Microsoft Windows operating system.
+\end_layout
+
+\begin_layout Paragraph
+Silverlight
+\end_layout
+
+\begin_layout Standard
+can be described as Microsoft's competitor to Adobe's Flash and related
+ technologies (Flex, AIR).
+ Currently, the Silverlight plugin is only compatible with Internet Explorer,
+ Safari and Firefox browser and support of Linux is not provided by Microsoft
+ (see 
+\begin_inset CommandInset href
+LatexCommand href
+name "system requirements"
+target "http://www.microsoft.com/silverlight/resources/install.aspx?v=1.0#sysreq"
+
+\end_inset
+
+ for Silverlight
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+http://www.microsoft.com/silverlight/resources/install.aspx?v=1.0#sysreq
+\end_layout
+
+\end_inset
+
+).
+ This technology is not yet available on any mobile device
+\begin_inset CommandInset citation
+LatexCommand cite
+key "_silverlight_????"
+
+\end_inset
+
+.
+ Like Flash, Silverlight is currently only accessible to assistive technologies
+ on Microsoft Windows.
+\end_layout
+
+\begin_layout Paragraph
+HTML & JavaScript
+\end_layout
+
+\begin_layout Standard
+and the associated styling language (CSS) are historically the base of Web
+ technologies and still the predominent ones.
+ However, the large variety of Web browsers available and the obsolescence
+ of some of them (Internet Explorer 6 and IE Mobile are respectively 8 and
+ 7 years old) is likely to result in difficulties to have a complex Web
+ page display the same way across browsers.
+ Being a plain-text semantic markup language, HTML is fully accessible to
+ assistive technologies and Web crawlers.
+\end_layout
+
+\begin_layout Paragraph
+VML
+\end_layout
+
+\begin_layout Standard
+is a markup language used to insert vector graphics in HTML documents but
+ is only implemented in Internet Explorer.
+ Other Web browsers implement an equivalent language: SVG.
+\end_layout
+
 \begin_layout Part
 Try something new
 \end_layout
 
 \begin_layout Standard
-OBSERVATIONS
+The previous 
+\emph on
+state of the art
+\emph default
+ allows to pinpoint three caracteristics of existing presentation software:
 \end_layout
 
-\begin_layout Itemize
-It is not possible to compete in term of feature richness for a single developer
+\begin_layout Enumerate
+they are now very rich applications, allowing to produce highly customizable
+ and visually appealing documents in which multimedia assets can be embedded.
+ The Web enabled a further leap in feature richness, offering a better availabil
+ity of documents, new possibilities of collaboration and distribution.
 \end_layout
 
-\begin_layout Itemize
-Most presentation software have significant and original features to differentia
-te from the rest, but there are only slight and insignificant variations
- in the GUI that actually has not evolved for ten years.
- On the other hand, new concept of GUI appeared and gain popularity in the
- meantime
+\begin_layout Enumerate
+if most of them have significant original features that differentiates them
+ from their competitors, there are only slight variations in their GUI that
+ has almost not evolved for ten years.
 \end_layout
 
-\begin_layout Itemize
-None of the authoring applications that have a GUI allows to create Presentation
-s accessible on the Web and some of them even require additional plugins
- that restrain their universal availability.
- On the other hand, the HTML5 specification is being developed and it could
- bring some answers to these issues.
- LATER: the purpose of this project is not to make presentations accessible
- to a particular kind of population such as people with visual impairments,
- but rather to make sure that the content will be possible to adapt in the
- future to particular devices, and the best solution for that is to use
- HTML
+\begin_layout Enumerate
+there are no presentations on the Web that are able to both reproduce their
+ information as a whole through assistive technologies and allow to navigate
+ the slides with a keyboard.
 \end_layout
 
-\begin_layout Section
-STEPS TO TAKE
+\begin_layout Standard
+From these observations it it possible to infer three directions for an
+ innovative and valuable presentation software as a Web application:
 \end_layout
 
-\begin_layout Itemize
-Design a Free and Open Source Software that would be appealing to the community
- of developers to help you implement an application that would be competitive
-\end_layout
-
-\begin_layout Itemize
-Explore the validity of new concept of GUI such as Zoom UI, in presentation
- software
-\end_layout
-
-\begin_layout Itemize
-Investigate the potential of HTML5 in terms of accessibility and plugin-less-nes
-s
+\begin_layout Enumerate
+Trying to compete in term of feature richness with existing solutions is
+ not a reasonable aim for a single developer.
+ In fact, this project could not be completed without the help of external
+ contributors.
+ The first aim of this project will be to encourage individuals to participate
+ in this project and mainly in its implementation phase.
 \end_layout
 
 \begin_layout Standard
