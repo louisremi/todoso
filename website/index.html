@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Untitled Document</title>
+		<style type="text/css">
+			.center {
+				margin: 0 auto;
+			}
+			.hidden {
+				/*visibility: hidden;*/
+			}
+			.background {
+				background-image: url(background.png);				
+				width: 600px;
+				height: 200px;
+				position: relative;
+			}
+			.background img, .background p {
+				position: absolute;				
+			}
+			.background p {
+				font-family: Georgia, "Century Schoolbook L", serif;
+				font-size: 37px;
+				font-weight: bold;
+				top: 39px;
+				width: 0;
+				overflow: hidden;
+				height: 52px;
+				text-shadow: 1px 1px 1px white;
+			}
+			.background span {
+				display: block;
+				width: 400px;
+			}
+			#soMuch {
+				right: 415px;
+			}
+			#To {
+				top: 43px;
+				left: 201px;
+			}
+			#Do {
+				top: 60px;
+				left: 236px;
+			}
+			#comma {
+				right: 283px;
+			}
+			#So {
+				top: 82px;
+				left: 319px;
+			}
+			#littleTime {
+				left: 380px;
+			}
+		</style>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				setTimeout(function() {
+					$("#soMuch").animate({width: "166px"}, 800);
+					$("#To").animate({left: "170px"}, 800);
+					$("#Do").animate({left: "215px"}, 800);
+					$("#comma").animate({width: "10px"}, 800);
+					$("#So").animate({left: "315px"}, 800);
+					$("#littleTime").animate({width: "201px"}, 800);
+				}, 3000)
+			});
+		</script>
+	</head>
+	<body>
+		<div class="center background">
+			<p id="soMuch" class="hidden"><span>So much </span></p>
+			<img alt="To" id="To" src="To.png" />
+			<img alt="Do" id="Do" src="Do.png" />
+			<p id="comma" class="hidden"><span>, </span></p>
+			<img alt="So" id="So" src="So.png" />
+			<p id="littleTime" class="hidden"><span> little time.</span></p>
+		</div>
+	</body>
+</html>

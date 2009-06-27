@@ -1,0 +1,377 @@
+#LyX 1.6.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Interim Report
+\end_layout
+
+\begin_layout Author
+Louis-Rémi Babé
+\end_layout
+
+\begin_layout Section
+Summary of objectives
+\end_layout
+
+\begin_layout Standard
+The idea behind this project is to create an online presentation software:
+ a Web applications that allows to manage, author and distribute presentations
+ and that can compete with existing solutions in term of feature richness.
+ Since the project is limited both in time and human resources, the focus
+ will however be on research for innovation rather than implementation.
+\end_layout
+
+\begin_layout Standard
+The specification of the project pinpointed the accessibility issues with
+ Web enabled documents produced by current solutions (i.e.
+ presentations that can be embedded on a Web page), as wall as the lack
+ of innovation in their Graphical User Interface (GUI).
+ The practical objectives for this project can be divided in three phases:
+\end_layout
+
+\begin_layout Subsection
+Design
+\end_layout
+
+\begin_layout Paragraph
+An accessible document format
+\end_layout
+
+\begin_layout Standard
+Design a document format that is accessible to as much people as possible
+ and particularly to visually impaired users
+\end_layout
+
+\begin_layout Paragraph
+A management interface
+\end_layout
+
+\begin_layout Standard
+Design a user interface which allows for presentations to be managed in
+ a Web page
+\end_layout
+
+\begin_layout Paragraph
+An authoring interface
+\end_layout
+
+\begin_layout Standard
+Design an user interface which allows for a presentation to be authored
+ in a Web page
+\end_layout
+
+\begin_layout Paragraph
+A 
+\emph on
+player
+\end_layout
+
+\begin_layout Standard
+Design an user interface which allows for a presentation to be displayed
+ in a Web page
+\end_layout
+
+\begin_layout Subsection
+Implementation
+\end_layout
+
+\begin_layout Paragraph
+An innovative prototype
+\end_layout
+
+\begin_layout Standard
+Implement a prototype of a Web application that would allow for users to
+ test the innovative concepts of interface proposed in the design phase.
+\end_layout
+
+\begin_layout Subsection
+Testing
+\end_layout
+
+\begin_layout Paragraph
+An accessibility test
+\end_layout
+
+\begin_layout Standard
+Test the accessibility of the designed format against common accessibility
+ guidelines (WCAG2.0)
+\end_layout
+
+\begin_layout Paragraph
+A user evaluation
+\end_layout
+
+\begin_layout Standard
+Undertake a user evaluation of the implemented prototype
+\end_layout
+
+\begin_layout Section
+What has already been achieved
+\end_layout
+
+\begin_layout Itemize
+So far, the 
+\series bold
+specification 
+\series default
+of the project has been extensively detailed:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the GUI of traditional presentation software has been described,
+\end_layout
+
+\begin_layout Itemize
+a list of features found in existing solutions has been drawn up,
+\end_layout
+
+\begin_layout Itemize
+an evaluation of the accessibility of the documents produced by those applicatio
+ns has been undertaken.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+An evaluation of existing solutions for 
+\series bold
+vector graphics 
+\series default
+(which allows to insert shapes in a slide) has been started, although the
+ conclusions have not been formally written.
+ 
+\end_layout
+
+\begin_layout Itemize
+The 
+\series bold
+design of the management 
+\series default
+interface has already started by a preliminary mockup.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Research 
+\series default
+has already started
+\series bold
+ 
+\series default
+concerning alternative concepts of user interface.
+\end_layout
+
+\begin_layout Section
+Skills acquired
+\end_layout
+
+\begin_layout Standard
+I have already learned a lot about vector graphics in browser and particularly
+ about VML and SVG, the native vector graphics technologies found respectively
+ in Internet Explorer or modern Web browsers.
+\end_layout
+
+\begin_layout Section
+What needs to be done 
+\end_layout
+
+\begin_layout Standard
+In the aforementioned list of objectives, the priority will be as follows
+\end_layout
+
+\begin_layout Enumerate
+Design the whole user interface
+\end_layout
+
+\begin_layout Enumerate
+Implement the prototype starting by the management and player part
+\end_layout
+
+\begin_layout Enumerate
+Undertake a user evaluation of the prototype
+\end_layout
+
+\begin_layout Enumerate
+Design an accessible file format
+\end_layout
+
+\begin_layout Enumerate
+Evaluate its accessibility
+\end_layout
+
+\begin_layout Section
+Proposed chapter plan for the final report
+\end_layout
+
+\begin_layout Standard
+The final report is likely to consist of the following parts:
+\end_layout
+
+\begin_layout Enumerate
+The 
+\series bold
+requirement 
+\series default
+phase will detail the features that a user can expect to find in a modern
+ online presentation software.
+\end_layout
+
+\begin_layout Enumerate
+The 
+\series bold
+design
+\series default
+ phase will propose ways to integrate the aforementioned features in an
+ innovative user interface.
+ The potential of the following concepts are expected to be investigated:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A 
+\series bold
+Zooming User Interface
+\series default
+ which allows for documents to be navigated in a way similar to Google Earth.
+\end_layout
+
+\begin_layout Enumerate
+A command prompt allowing users to interact with applications using a 
+\series bold
+natural language
+\series default
+, in a way
+\series bold
+ 
+\series default
+similar to the Ubiquity extension for Firefox.
+\end_layout
+
+\begin_layout Enumerate
+The use of 
+\series bold
+tags 
+\series default
+instead of folders/sub-folders to manage a library of documents.
+\end_layout
+
+\begin_layout Enumerate
+The use of existing documents as a starting point to create new ones, 
+\series bold
+removing the need for templates
+\series default
+.
+\end_layout
+
+\begin_layout Enumerate
+A 
+\series bold
+timeline
+\series default
+ allowing users to define animation of elements in a slide by setting 
+\series bold
+keyframes
+\series default
+ in a way similar to Flash CS3.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The 
+\series bold
+implementation
+\emph on
+ 
+\series default
+\emph default
+phase is expected to cover the following topics:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The 
+\series bold
+accessibility 
+\series default
+of the different technologies which allows for rich interface to be produced
+ on the Web.
+\end_layout
+
+\begin_layout Enumerate
+The state of 
+\series bold
+vector graphics 
+\series default
+in the browser.
+\end_layout
+
+\begin_layout Enumerate
+The state of 
+\series bold
+animation
+\series default
+ technologies in the browser.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The 
+\series bold
+testing
+\series default
+ phase will present the protocols and process of:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The user evaluation of the prototypes.
+\end_layout
+
+\begin_layout Enumerate
+The test of the accessibility of the designed document format.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document
