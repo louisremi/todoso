@@ -1,0 +1,47 @@
+#banner {
+	background-image: url(../image/background.png);			
+	width: 600px;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+	display: block;
+}
+#banner img, #banner p {
+	position: absolute;				
+}
+#banner p {
+	font-family: Georgia, "Century Schoolbook L", serif;
+	font-size: 37px;
+	font-weight: bold;
+	top: 79px;
+	width: 0;
+	padding: 0;
+	overflow: hidden;
+	height: 52px;
+	text-shadow: 1px 1px 1px white;
+}
+#banner span {
+	display: block;
+	width: 400px;
+}
+#soMuch {
+	right: 415px;
+}
+#To {
+	top: 43px;
+	left: 201px;
+}
+#Do {
+	top: 60px;
+	left: 236px;
+}
+#comma {
+	right: 283px;
+}
+#So {
+	top: 82px;
+	left: 319px;
+}
+#littleTime {
+	left: 380px;
+}

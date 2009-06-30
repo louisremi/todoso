@@ -1,0 +1,44 @@
+#overlayDiv {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	-moz-box-shadow: #000 -1px -1px 20px;
+	-webkit-box-shadow: #000 -1px -1px 20px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#overlayRelative {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#overlayRelative * {
+	position: absolute;
+}
+
+#overlayClose {
+	width: 8%;
+	top: -5.5%;
+	right: -4%;
+	cursor: pointer;
+}
+
+#overlayLoader {
+	top: 50%;
+	left: 50%;
+	margin: -16px;
+}
+
+#overlayImage {
+	display: none;
+	top: 5%;
+	left: 5%;
+}
+
+#fixedDiv {
+	position: fixed;
+	top: 0;
+	left: 50%;
+}
