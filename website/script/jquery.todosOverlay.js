@@ -35,10 +35,10 @@ var $overlay = $("#overlayDiv").bind("click close", function() {
 	Format;
 	
 $.fn.extend({
-	todosOverlay: function(options) {
+	todosOverlay: function(o) {
 		return this.each(function() {
 			var $this = $(this),
-				options = $.extend({}, $.todosOverlay.defaults, options);
+				options = $.extend({}, $.todosOverlay.defaults, o);
 			$this.click(function(e) {
 				if(e.target.tagName == "IMG") {
 					var target = e.target, 
