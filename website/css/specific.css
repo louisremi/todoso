@@ -1,3 +1,7 @@
 .alignRight {
 	text-align: right;
 }
+
+.line {
+	margin: 10px 0;
+}
