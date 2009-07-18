@@ -19,7 +19,9 @@
 }
 
 #overlayClose {
-	width: 8%;
+	width: 50px;
+	height: 50px;
+	background: url(../image/sprite.png) 0 -50px;
 	top: -5.5%;
 	right: -4%;
 	cursor: pointer;
@@ -37,14 +39,36 @@
 	left: 5%;
 }
 
-#overlayTitle {
+#overlayPlus {
+	width: 100%;
+	height: 100%;
 	display: none;
+}
+
+.overlayKey {
+	top: 46%;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background-image: url(../image/sprite.png);
+}
+
+#overlayPrevious {
+	left: -70px;	
+}
+
+#overlayNext {
+	right: -70px;
+	background-position: -50px 0;
+}
+
+#overlayTitle {
 	width: 90%;
 	left: 3.5%;
 	bottom: 20px;
-	text-align: center;
+	background-color: #e6e6e6;
+	text-align: center;	
 	font-family: Georgia, "Century Schoolbook L", serif;
-	background-color: #888;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 }

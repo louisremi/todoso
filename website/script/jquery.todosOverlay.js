@@ -6,41 +6,53 @@ $("body").append((
 			"<img id=\"overlayClose\" src=\"image/close.png\" />"+
 			"<img id=\"overlayLoader\" src=\"image/loader.gif\" />"+
 			"<img id=\"overlayImage\" />"+
-			"<p id=\"overlayTitle\"></p>"+
+			"<div id=\"overlayPlus\">"+
+				"<img id=\"overlayPrevious\" src=\"image/keyLeft.png\" class=\"overlayKey\" />"+
+				"<img id=\"overlayNext\" src=\"image/keyRight.png\" class=\"overlayKey\" />"+		
+				"<p id=\"overlayTitle\"></p>"+
+			"</div>"+
 		"</div>"+
 	"</div>"+
 	"<div id=\"fixedDiv\"></div>"
 ));
-var $overlay = $("#overlayDiv").bind("click close", function() {
+var $overlay = $("#overlayDiv").click(function(e) {
+		$overlay.trigger(e.target.className == "overlayKey"? "change" : "minimize", [e.target.id == "overlayNext"? 1 : -1])
+		
+	}).bind("change", function(e, increment) {
+		$CurrentContainer.find("img:eq("+ (parseInt($CurrentTarget.data("imageOrder")) + increment) + ")").trigger("click");
+		
+	}).bind("minimize", function() {
 		// Cache useful values
 		var overlayWidth = $overlay.data("width");
-		$overlay.removeClass("maximized").animate({
+		$overlay.animate({
 			width: 0,
 			height: 0,
 			left: "+=" + overlayWidth /2,
 			top: "+=" + overlayWidth /Format /2
-		}).queue(function() {
-			$overlay.css("display", "none");
-			$image.css({
-				width: "auto"
-			}).attr("src", "");
-			$overlay.dequeue();
-		});		
+		}).queue(function() {			
+			$overlay.hide().dequeue();
+		});
+		
 	}).hover(function() {
 		if($overlay.hasClass("maximized"))
-			$title.fadeIn();
-		console.log($overlay.hasClass("maximized"))
+			$title.stop(true, true).fadeIn();
 	}, function() {
-		$title.fadeOut();
+		if($overlay.hasClass("maximized"))
+			$title.stop(true, true).fadeOut();
 	}),
 	$image = $("#overlayImage").load(function() {
+		clearInterval(Load);
 		$image.css({
 			width: "90%"
-		}).animate({opacity: 1});		
+		}).animate({opacity: 1});
 	}),
+	$plus = $('#overlayPlus'),
 	$title = $("#overlayTitle").css("opacity", .8),
 	$fixed = $("#fixedDiv"),
-	Format;
+	Format,
+	Load,
+	$CurrentTarget,
+	$CurrentContainer;
 	
 $.fn.extend({
 	todosOverlay: function(o) {
@@ -49,24 +61,35 @@ $.fn.extend({
 				options = $.extend({}, $.todosOverlay.defaults, o);
 			$this.click(function(e) {
 				if(e.target.tagName == "IMG") {
-					var target = e.target, 
-						$target = $(target),
+					var target = e.target,
+						// Prepare/reset the overlay for a new image as soon as possible
+						_$image = $image.css({
+								width: "auto",
+								opacity: 0,
+								display: "block"
+							}).attr("src", ""),
+						_$plus = $plus.hide(),
+						_$overlay = $overlay.removeClass("maximized"),
+						// Cache useful values
+						$target = $(target),						
+						title = $target.attr("title"),
+						overlayWidth = options.width,
+						// Create new vars
 						targetPosition = $target.position(),
 						targetWidth = $target.width(),
 						targetHeight = $target.height(),
-						fixedPosition = $fixed.position(),
-						// Cache usefull values
-						overlayWidth = options.width,
-						_$image = $image.attr("src", target.src.replace(options.regex, options.replace))
-							.css({
-								opacity: 0,
-								display: "block"
-							}),
-						title = $target.attr("title");
-					$title.text(title);
-					$title.css("visibility", title? "visible" : "hidden");
+						fixedPosition = $fixed.position();
+					_$image.attr("src", target.src.replace(options.regex, options.replace));
+					// Make sure that the load event fires even from cache 
+					Load = setInterval(function() {
+						if(_$image.width() != 0)
+							_$image.trigger("load");
+					}, 200);
+					$title.text(title).css({display: "block", visibility: title? "visible" : "hidden"});
+					$CurrentTarget = $target;
+					$CurrentContainer = $(this);
 					Format = targetWidth / targetHeight;
-					$overlay.data("width", options.width)
+					_$overlay.data("width", options.width)
 					// Move the overlay over the clicked image
 					.css({
 						left: targetPosition.left,
@@ -81,13 +104,33 @@ $.fn.extend({
 						width: overlayWidth,
 						height: overlayWidth / Format
 					}).queue(function() {
-						$title.fadeIn();
-						$overlay.addClass("maximized").dequeue();
+						_$plus.fadeIn();
+						_$overlay.addClass("maximized").dequeue();
 					});
 				}
+			}).find("img").each(function(i) {
+				$(this).data("imageOrder", i);
 			});
 		});
 	}
+});
+
+$(window).keydown(function(e) {
+		if($overlay.is(":visible"))
+		switch(e.keyCode) {
+			case 37:
+				$overlay.trigger("change", [-1]);
+				return false;
+				break;
+			case 39:
+				$overlay.trigger("change", [1]);
+				return false;
+				break;
+			case 27:
+				$overlay.trigger("minimize");
+				return false;
+				break;
+		}
 });
 
 $.todosOverlay = {
