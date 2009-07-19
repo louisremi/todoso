@@ -3,12 +3,12 @@
 $("body").append((
 	"<div id=\"overlayDiv\">"+
 		"<div id=\"overlayRelative\">"+
-			"<img id=\"overlayClose\" src=\"image/close.png\" />"+
+			"<div id=\"overlayClose\"></div>"+
 			"<img id=\"overlayLoader\" src=\"image/loader.gif\" />"+
 			"<img id=\"overlayImage\" />"+
 			"<div id=\"overlayPlus\">"+
-				"<img id=\"overlayPrevious\" src=\"image/keyLeft.png\" class=\"overlayKey\" />"+
-				"<img id=\"overlayNext\" src=\"image/keyRight.png\" class=\"overlayKey\" />"+		
+				"<div id=\"overlayPrevious\" class=\"overlayKey\"></div>"+
+				"<div id=\"overlayNext\" class=\"overlayKey\" /></div>"+	
 				"<p id=\"overlayTitle\"></p>"+
 			"</div>"+
 		"</div>"+
@@ -33,12 +33,6 @@ var $overlay = $("#overlayDiv").click(function(e) {
 			$overlay.hide().dequeue();
 		});
 		
-	}).hover(function() {
-		if($overlay.hasClass("maximized"))
-			$title.stop(true, true).fadeIn();
-	}, function() {
-		if($overlay.hasClass("maximized"))
-			$title.stop(true, true).fadeOut();
 	}),
 	$image = $("#overlayImage").load(function() {
 		clearInterval(Load);
@@ -47,7 +41,13 @@ var $overlay = $("#overlayDiv").click(function(e) {
 		}).animate({opacity: 1});
 	}),
 	$plus = $('#overlayPlus'),
-	$title = $("#overlayTitle").css("opacity", .8),
+	$title = $("#overlayTitle").hover(function() {
+			if($overlay.hasClass("maximized"))
+				$title.stop().animate({opacity: .1});
+		}, function() {
+			if($overlay.hasClass("maximized"))
+				$title.stop().animate({opacity: .8});
+		}).css("opacity", .8),
 	$fixed = $("#fixedDiv"),
 	Format,
 	Load,
@@ -119,14 +119,17 @@ $(window).keydown(function(e) {
 		if($overlay.is(":visible"))
 		switch(e.keyCode) {
 			case 37:
+				// previous
 				$overlay.trigger("change", [-1]);
 				return false;
 				break;
 			case 39:
+				// next
 				$overlay.trigger("change", [1]);
 				return false;
 				break;
 			case 27:
+				// escape
 				$overlay.trigger("minimize");
 				return false;
 				break;
