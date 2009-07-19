@@ -335,6 +335,13 @@
            in="SourceGraphic" />
       </feMerge>
     </filter>
+    <inkscape:perspective
+       id="perspective3143"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -343,11 +350,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="222.21885"
-     inkscape:cy="472.48705"
+     inkscape:zoom="0.25"
+     inkscape:cx="512.57106"
+     inkscape:cy="255.19163"
      inkscape:document-units="px"
-     inkscape:current-layer="g2964"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="776"
@@ -362,7 +369,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -385,103 +392,15 @@
      id="layer2"
      inkscape:label="slide"
      transform="translate(0,-252.36218)"
-     sodipodi:insensitive="true"
-     style="display:inline">
-    <rect
-       style="fill:url(#radialGradient2923);fill-opacity:1;stroke:none"
-       id="rect2383"
-       width="1066.6667"
-       height="800"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <image
+       y="252.36218"
        x="107"
-       y="252.36215"
-       rx="0"
-       ry="0" />
-    <text
-       xml:space="preserve"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
-       x="178.39648"
-       y="357.12405"
-       id="text3167"><tspan
-         sodipodi:role="line"
-         id="tspan3169"
-         x="178.39648"
-         y="357.12405">A Cat's Guide to World Dominashun</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
-       x="174.22981"
-       y="352.9574"
-       id="text3163"><tspan
-         sodipodi:role="line"
-         id="tspan3165"
-         x="174.22981"
-         y="352.9574">A Cat's Guide to World Dominashun</tspan></text>
-    <rect
-       style="fill:#808080;fill-opacity:1;stroke:none"
-       id="rect3171"
-       width="930.05951"
-       height="4.4642859"
-       x="175.30359"
-       y="368.43359" />
-    <text
-       xml:space="preserve"
-       style="font-size:37.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
-       x="218.7567"
-       y="493.69196"
-       id="text3173"><tspan
-         sodipodi:role="line"
-         id="tspan3175"
-         x="218.7567"
-         y="493.69196"
-         style="font-size:37.5px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold">Be careful, some are already suspicious:</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:37.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
-       x="238.39017"
-       y="644.59833"
-       id="text3181"><tspan
-         sodipodi:role="line"
-         x="238.39017"
-         y="644.59833"
-         id="tspan5037"
-         style="font-style:italic">&quot;In ancient times, cats were worshiped as gods. </tspan><tspan
-         sodipodi:role="line"
-         x="238.39017"
-         y="691.47333"
-         id="tspan2552"
-         style="font-style:italic">They have never forgotten this.&quot; </tspan></text>
-    <path
-       sodipodi:type="arc"
-       style="fill:#ffffff;fill-opacity:1;stroke:none"
-       id="path5029"
-       sodipodi:cx="64.649765"
-       sodipodi:cy="303.32983"
-       sodipodi:rx="10.101525"
-       sodipodi:ry="10.101525"
-       d="m 74.75129,303.32983 c 0,5.57892 -4.522607,10.10153 -10.101525,10.10153 -5.578918,0 -10.101525,-4.52261 -10.101525,-10.10153 0,-5.57891 4.522607,-10.10152 10.101525,-10.10152 5.578918,0 10.101525,4.52261 10.101525,10.10152 z"
-       transform="matrix(0.46875001,0,0,0.46875001,170.8711,341.75159)" />
-    <text
-       xml:space="preserve"
-       style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
-       x="1099.2645"
-       y="1001.6431"
-       id="text5083"><tspan
-         sodipodi:role="line"
-         id="tspan5085"
-         x="1099.2645"
-         y="1001.6431">2</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:37.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
-       x="707.24628"
-       y="743.10828"
-       id="text2558"><tspan
-         sodipodi:role="line"
-         x="707.24628"
-         y="743.10828"
-         id="tspan2562"
-         style="font-weight:normal;-inkscape-font-specification:Century Schoolbook L Italic"
-         transform="translate(479.63846,0)">― Terry Pratchett</tspan></text>
+       id="image3145"
+       height="800"
+       width="1066.6666"
+       xlink:href="file:///home/lrbabe/workspace/todoso/project/design/slide%202%20shadowless.png" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -848,7 +767,8 @@
      style="display:inline"
      inkscape:groupmode="layer"
      id="g2964"
-     inkscape:label="cursor">
+     inkscape:label="cursor"
+     sodipodi:insensitive="true">
     <path
        style="fill:#ffffff;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 1013.6525,620.87969 5.663,-6.458 3.809,9.29519 4.2274,-1.87929 -3.8091,-9.29517 8.3949,0.20876 -18.2355,-18.12498 -0.051,26.25352 z"

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="768"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47pre0 r21549"
+   sodipodi:docname="presentation.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.75,-301.31161,72.274187)"
+       r="512"
+       fy="415.63443"
+       fx="813.31158"
+       cy="415.63443"
+       cx="813.31158"
+       id="radialGradient3161-1"
+       xlink:href="#linearGradient3155-1"
+       inkscape:collect="always" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.75,-501.66933,197.42858)"
+       r="512"
+       fy="248.76189"
+       fx="1013.6693"
+       cy="248.76189"
+       cx="1013.6693"
+       id="radialGradient3161"
+       xlink:href="#linearGradient3155-1"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient3155-1">
+      <stop
+         id="stop3157-0"
+         offset="0"
+         style="stop-color:#404040;stop-opacity:1;" />
+      <stop
+         id="stop3159-7"
+         offset="1"
+         style="stop-color:#0a0a0a;stop-opacity:1;" />
+    </linearGradient>
+    <filter
+       id="filter5059"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur5061"
+         stdDeviation="8.96"
+         inkscape:collect="always" />
+    </filter>
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.75,-137.80073,83.142861)"
+       r="512"
+       fy="401.14285"
+       fx="649.80072"
+       cy="401.14285"
+       cx="649.80072"
+       id="radialGradient3161-9"
+       xlink:href="#linearGradient3155-1"
+       inkscape:collect="always" />
+    <filter
+       id="filter3918"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-.25"
+       y="-.25">
+      <feGaussianBlur
+         id="feGaussianBlur3920"
+         in="SourceAlpha"
+         stdDeviation="10.000000"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix3922"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.700000 0 " />
+      <feOffset
+         id="feOffset3924"
+         in="bluralpha"
+         dx="15.000000"
+         dy="15.000000"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge3926">
+        <feMergeNode
+           id="feMergeNode3928"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode3930"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="291.91356"
+     inkscape:cy="384.85714"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Slide title"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(301.31161,23.725813)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       id="layer1-3"
+       inkscape:label="Layer 1"
+       transform="translate(-301.31161,-23.725813)">
+      <rect
+         ry="0"
+         rx="0"
+         y="0"
+         x="0"
+         height="768"
+         width="1024"
+         id="rect2383"
+         style="fill:url(#radialGradient3161-1);fill-opacity:1;stroke:none" />
+      <g
+         transform="translate(0,-33.860771)"
+         id="g3188">
+        <g
+           id="g2404"
+           transform="translate(124.26637,297.90857)">
+          <text
+             id="text3167"
+             y="100.57143"
+             x="68.540627"
+             style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+             xml:space="preserve"><tspan
+               y="100.57143"
+               x="68.540627"
+               id="tspan3169"
+               sodipodi:role="line">World Dominashun</tspan></text>
+          <text
+             id="text3163"
+             y="96.571426"
+             x="64.540627"
+             style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+             xml:space="preserve"><tspan
+               y="96.571426"
+               x="64.540627"
+               id="tspan3165"
+               sodipodi:role="line">World Dominashun</tspan></text>
+        </g>
+        <rect
+           style="fill:#ff0000;fill-opacity:1;stroke:none"
+           id="rect3171"
+           width="645.71423"
+           height="2"
+           x="189.28572"
+           y="405.71426" />
+        <text
+           xml:space="preserve"
+           style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+           x="361.98761"
+           y="493.68954"
+           id="text3181"><tspan
+             sodipodi:role="line"
+             x="361.98761"
+             y="493.68954"
+             id="tspan2552"
+             style="font-size:48px;font-style:italic;fill:#e6e6e6">&quot;Yes, we cat!&quot;</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Slide 1"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       id="layer1-4"
+       inkscape:label="Layer 1">
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/lrbabe/workspace/todoso/project/design/slide 1 shadowless.png"
+         ry="0"
+         rx="0"
+         y="0"
+         x="0"
+         height="768"
+         width="1024"
+         id="rect2383-8"
+         style="fill:url(#radialGradient3161);fill-opacity:1;stroke:none" />
+      <text
+         id="text3167-0"
+         y="100.57143"
+         x="68.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="100.57143"
+           x="68.540627"
+           id="tspan3169-4"
+           sodipodi:role="line">A Cat's Guide to World Dominashun</tspan></text>
+      <text
+         id="text3163-2"
+         y="96.571426"
+         x="64.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="96.571426"
+           x="64.540627"
+           id="tspan3165-9"
+           sodipodi:role="line">A Cat's Guide to World Dominashun</tspan></text>
+      <rect
+         y="111.42857"
+         x="65.571442"
+         height="4.2857141"
+         width="892.85712"
+         id="rect3171-6"
+         style="fill:#808080;fill-opacity:1;stroke:none" />
+      <text
+         id="text3173"
+         y="231.67659"
+         x="107.28644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold"
+           y="231.67659"
+           x="107.28644"
+           id="tspan3175"
+           sodipodi:role="line">Gather at night time, don't speak in their presence</tspan></text>
+      <text
+         id="text3181-1"
+         y="400.8324"
+         x="106.02644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           id="tspan3191"
+           y="400.8324"
+           x="106.02644"
+           sodipodi:role="line">Regurgitation is the price for a </tspan><tspan
+           id="tspan5037"
+           y="445.8324"
+           x="106.02644"
+           sodipodi:role="line">cuddly fur</tspan></text>
+      <g
+         transform="translate(-21.428571,11.375122)"
+         id="g5019">
+        <rect
+           style="fill:#ffffff;fill-opacity:0.8133971;stroke:none"
+           id="rect3185"
+           width="335.07596"
+           height="251.30696"
+           x="666.70074"
+           y="276.7818" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 686.90373,303.24861 0,208.15234 288.90363,0"
+           id="path3193"
+           sodipodi:nodetypes="ccc" />
+        <text
+           xml:space="preserve"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitestream Vera Sans;-inkscape-font-specification:Century Schoolbook L Medium"
+           x="672.98492"
+           y="296.25876"
+           id="text3195"><tspan
+             sodipodi:role="line"
+             id="tspan3197"
+             x="672.98492"
+             y="296.25876"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans">daily cleansing</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+           x="843.76166"
+           y="502.49231"
+           id="text3199"><tspan
+             sodipodi:role="line"
+             id="tspan3201"
+             x="843.76166"
+             y="502.49231">human acceptance</tspan></text>
+        <path
+           style="fill:none;stroke:#ff0101;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
+           d="M 686.90373,510.4111 C 892.97485,498.28927 952.57385,336.66486 952.57385,336.66486"
+           id="path3203"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#ff0101;stroke-width:2.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           d="m 943.98756,342.53637 9.09137,-7.38674 2.27284,11.36422"
+           id="path5013"
+           sodipodi:nodetypes="ccc" />
+      </g>
+      <text
+         id="text5015"
+         y="610.4162"
+         x="105.77444"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="610.4162"
+           x="105.77444"
+           id="tspan5017"
+           sodipodi:role="line">Planning world destrucshun while pretending to </tspan><tspan
+           id="tspan5087"
+           y="655.4162"
+           x="105.77444"
+           sodipodi:role="line">sleep </tspan></text>
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,85.813861)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path5029"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,256.10797)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path5031"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,466.68177)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path5033"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         id="text5083"
+         y="719.30963"
+         x="952.57385"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="719.30963"
+           x="952.57385"
+           id="tspan5085"
+           sodipodi:role="line">1</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Slide 2"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <g
+       id="layer1-2"
+       inkscape:label="Layer 1">
+      <rect
+         ry="0"
+         rx="0"
+         y="0"
+         x="0"
+         height="768"
+         width="1024"
+         id="rect2383-4"
+         style="fill:url(#radialGradient3161-9);fill-opacity:1;stroke:none" />
+      <text
+         id="text3167-3"
+         y="100.57143"
+         x="68.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="100.57143"
+           x="68.540627"
+           id="tspan3169-7"
+           sodipodi:role="line">A Cat's Guide to World Dominashun</tspan></text>
+      <text
+         id="text3163-1"
+         y="96.571426"
+         x="64.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="96.571426"
+           x="64.540627"
+           id="tspan3165-2"
+           sodipodi:role="line">A Cat's Guide to World Dominashun</tspan></text>
+      <rect
+         y="111.42857"
+         x="65.571442"
+         height="4.2857141"
+         width="892.85712"
+         id="rect3171-2"
+         style="fill:#808080;fill-opacity:1;stroke:none" />
+      <text
+         id="text3173-0"
+         y="231.67659"
+         x="107.28644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold"
+           y="231.67659"
+           x="107.28644"
+           id="tspan3175-2"
+           sodipodi:role="line">Be careful, some are already suspicious:</tspan></text>
+      <text
+         id="text3181-17"
+         y="376.54669"
+         x="126.13456"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           style="font-style:italic"
+           id="tspan5037-5"
+           y="376.54669"
+           x="126.13456"
+           sodipodi:role="line">&quot;In ancient times, cats were worshiped as gods. </tspan><tspan
+           style="font-style:italic"
+           id="tspan2552-1"
+           y="421.54669"
+           x="126.13456"
+           sodipodi:role="line">They have never forgotten this.&quot; </tspan></text>
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,85.813861)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path5029-7"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         id="text5083-4"
+         y="719.30963"
+         x="952.57385"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="719.30963"
+           x="952.57385"
+           id="tspan5085-1"
+           sodipodi:role="line">2</tspan></text>
+      <text
+         id="text2558"
+         y="471.11627"
+         x="576.23639"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           transform="translate(479.63846,0)"
+           style="font-weight:normal;-inkscape-font-specification:Century Schoolbook L Italic"
+           id="tspan2562"
+           y="471.11627"
+           x="576.23639"
+           sodipodi:role="line">― Terry Pratchett</tspan></text>
+    </g>
+  </g>
+</svg>
