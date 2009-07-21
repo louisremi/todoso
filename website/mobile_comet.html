@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>ToDoSo prototype: controlling a presentation with a mobile device and a Comet server</title>
+		<link rel="stylesheet" type="text/css" media="all"  href="css/mobile_comet.css" />
+		<link rel="stylesheet" type="text/css" media="all"  href="css/specific.css" />
+	</head>
+	<body>
+		<div id="scene">
+			<img src="image/mobile comet/screen.png">
+			<div id="screen">
+				<img id="screenImg" src="image/mobile comet/slide0.png" />
+			</div>
+			<img id="phone" src="image/mobile comet/G2 phone.png">
+			<div id="mobile">
+				<div id="mobileWrapper">
+					<img src="image/mobile comet/slide0.png" />
+					<img src="image/mobile comet/slide1.png" />
+					<img src="image/mobile comet/slide2.png" />
+					<img src="image/mobile comet/slide3.png" />
+					<img src="image/mobile comet/slide4.png" />
+					<img src="image/mobile comet/slide5.png" />
+				</div>
+			</div>
+			<div id="indications">
+				<p>The mobile phone remotely controls the projected presentation.</p>
+				<p>In real life, panning is done by sliding a finger on the screen and presentations 
+				are synchronized using <a href="http://cometdproject.dojotoolkit.org/">cometD</a>.</p>
+			</div>
+			<div id="logo"><a href="index.html"><img src="image/logo.png"></a></div>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script src="script/jquery.scrollTo.js"></script>
+		<script>
+			$(function() {
+				var ScrollTimeout,
+					currentSlide = 0,
+					imageTopDelta = $("#mobile img:eq(1)").offset().top - $("#mobile img:eq(0)").offset().top,
+					$mobile = $("#mobile").scroll(function() {
+						clearTimeout(ScrollTimeout);
+						ScrollTimeout = setTimeout(function() {
+							var newSlide = autoFocus($mobile, imageTopDelta);
+							if(newSlide != currentSlide)
+								$screen.trigger("change", [newSlide]);							
+						}, 1000)
+					}),
+					$screen = $("#screenImg").bind("change", function(e, newSlide) {
+						var after = newSlide - currentSlide > 0;
+						$screen.animate({
+							top: 300 * (after? -1 : 1),
+							opacity: 0
+						}, "slow").queue(function() {
+							currentSlide = newSlide;
+							$screen
+								.attr("src", $("#mobile img:eq("+ currentSlide +")").attr("src"));
+							$screen.dequeue();						
+						// There is a strange bug in jQuery if this is done in the previous queue :(
+						}).animate({
+							top: 300 * (after? 1 : -1)
+						}, 0).animate({
+							top: 0,
+							opacity: 1
+						}, "slow");
+					});
+			});
+			
+			var autoFocus = function($mobile, delta) {
+				var newSlide = Math.round($mobile.scrollTop() / delta);
+				$mobile.scrollTo(delta * newSlide, "normal");
+				return newSlide;
+			};
+		</script>
+	</body>
+</html>

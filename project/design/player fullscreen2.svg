@@ -350,11 +350,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25"
-     inkscape:cx="512.57106"
-     inkscape:cy="255.19163"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="161.34227"
+     inkscape:cy="367.12219"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="776"
@@ -369,7 +369,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -690,8 +690,7 @@
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="zoom"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:#ffffff;fill-opacity:0;stroke:none"
        id="rect3788"
@@ -699,9 +698,9 @@
        height="437.5"
        x="293.17606"
        y="453.00964"
-       inkscape:export-filename="/home/lrbabe/workspace/todoso/website/image/player fullscreen zoom2 navigation_thumbnail.png"
-       inkscape:export-xdpi="25.714285"
-       inkscape:export-ydpi="25.714285" />
+       inkscape:export-filename="/home/lrbabe/workspace/todoso/website/image/player fullscreen zoom2 navigation.png"
+       inkscape:export-xdpi="77.14286"
+       inkscape:export-ydpi="77.14286" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -734,11 +733,11 @@
          y="788.44342">Play</tspan></text>
   </g>
   <g
-     inkscape:label="cursor navigation"
+     inkscape:label="cursor zoom out"
      id="g4836"
      inkscape:groupmode="layer"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <path
        id="path4838"
        d="m 406.42205,755.42385 5.66302,-6.458 3.80905,9.29519 4.22741,-1.87929 -3.80911,-9.29517 8.39486,0.20876 -18.23549,-18.12498 -0.0507,26.25352 z"
@@ -755,16 +754,16 @@
     <text
        id="text4842"
        y="788.44342"
-       x="339.15326"
+       x="343.60052"
        style="font-size:24px;fill:#ffffff"
        xml:space="preserve"><tspan
          y="788.44342"
-         x="339.15326"
+         x="343.60052"
          id="tspan4844"
-         sodipodi:role="line">Navigation</tspan></text>
+         sodipodi:role="line">Zoom Out</tspan></text>
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:groupmode="layer"
      id="g2964"
      inkscape:label="cursor"

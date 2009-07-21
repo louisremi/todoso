@@ -8,7 +8,7 @@ $("body").append((
 			"<img id=\"overlayImage\" />"+
 			"<div id=\"overlayPlus\">"+
 				"<div id=\"overlayPrevious\" class=\"overlayKey\"></div>"+
-				"<div id=\"overlayNext\" class=\"overlayKey\" /></div>"+	
+				"<div id=\"overlayNext\" class=\"overlayKey\"></div>"+	
 				"<p id=\"overlayTitle\"></p>"+
 			"</div>"+
 		"</div>"+

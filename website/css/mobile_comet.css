@@ -1,0 +1,67 @@
+#scene {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 30px;
+    left: 30px;
+		width: 900px;
+		height: 500px;
+}
+
+#scene div, #scene img {
+    position: absolute;
+}
+
+#screen {
+    width: 400px;
+    height: 300px;
+		top: 29px;
+		left: 28px;
+		overflow: hidden;
+}
+
+#indications {
+	left:500px;
+	top:80px;
+	width:450px;
+}
+
+#logo {
+	left: 750px;
+}
+
+#logo img {
+	border: none;
+}
+
+#phone {
+	top: 300px;
+	left: 500px;
+}
+
+#mobile {
+    width: 224px;
+    height: 150px;
+		top: 317px;
+		left: 553px;
+		overflow-x: scroll;
+		overflow-x: hidden;
+}
+
+#mobileWrapper {
+	position: relative;
+	margin: 0 0 0 5px;
+	width: 200px;
+}
+
+#mobile img {
+	width: 200px;
+	height: 150px;
+	position: relative;
+}
+
+a { color: #600; font-weight:bold;text-decoration: none }
+a:focus, a:hover { text-decoration: underline }
+a:visited { color:#9c0000; }
+
+body{font-family:"Myriad Pro","Segoe UI",Helvetica, Arial, sans-serif;}
