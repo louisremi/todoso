@@ -1,0 +1,69 @@
+#verticalTab {
+	position: fixed;
+	top: 20%;
+	left: 0;
+	font-size: 16px;
+	z-index: 100;
+}
+
+#vTabs {
+	padding: 0;
+	margin: 0;
+}
+
+#vTabs li {
+	overflow: hidden;
+	cursor: pointer;
+	display: block;
+	width: 36px;
+	height: 128px;
+	margin-bottom: 2px;
+	background-image: url(../image/verticalTabs.png);
+	background-repeat: no-repeat;
+}
+
+#vTabs a {
+	display: none;
+}
+
+#updates {
+	top: 0px;
+}
+
+#ressourceTab {
+	background-position: 0 -128px;
+}
+
+#ressources {
+	top: 128px;
+}
+
+#feedbackTab {
+	background-position: 0 -256px;
+}
+
+#feedback {
+	top: 256px;	
+}
+
+#verticalTab div {
+	position: absolute;
+	left: 40px;
+	height: 108px;
+	width: 300px;
+	background: #f6f6f6;
+	-moz-box-shadow: #888 2px 2px 4px;
+	-webkit-box-shadow: #888 2px 2px 4px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 8px;
+}
+
+#verticalTab p {
+	margin: 0;
+	padding: 6px 10px;
+}
+
+#verticalTab div {
+	display: none;
+}

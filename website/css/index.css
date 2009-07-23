@@ -1,0 +1,26 @@
+body {
+	overflow-y: scroll;
+}
+
+.alignRight {
+	text-align: right;
+}
+
+.line {
+	margin: 25px 0;
+}
+
+#moto p:first-letter {
+	color: #9c0000;
+	font-weight: bold;
+}
+
+#prototypes a {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#prototypes img {
+	display: inline;
+}

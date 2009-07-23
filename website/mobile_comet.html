@@ -4,9 +4,28 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>ToDoSo prototype: controlling a presentation with a mobile device and a Comet server</title>
 		<link rel="stylesheet" type="text/css" media="all"  href="css/mobile_comet.css" />
-		<link rel="stylesheet" type="text/css" media="all"  href="css/specific.css" />
+		<link rel="stylesheet" type="text/css" media="all"  href="css/verticalTab.css" />
 	</head>
 	<body>
+		<div id="verticalTab">
+			<ul id="vTabs">
+				<li id="updateTab"><a href="#updates">Updates</a></li>
+				<li id="ressourceTab"><a href="#ressources">Ressources</a></li>
+				<li id="feedbackTab"><a href="#feedback">Feedback</a></li>
+			</ul>
+			<div id="updates">
+				<p>Follow the <a href="http://www.lrbabe.com">Blog</a> of this project.</p>
+				<p>Listen to our <a href="http://twitter.com/lrbabe">Twitts</a>.</p>
+			</div>
+			<div id="ressources">
+				<p>All ressources are available on <a href="http://github.com/lrbabe/todoso/">Github</a>.</p>
+				<p>Distributed under the <a href="http://www.fsf.org/licensing/licenses/agpl-3.0.html">Affero GPL 3</a> license</p>
+			</div>
+			<div id="feedback">
+				<p>Make a suggestion or report a problem using the <a href="https://bugs.launchpad.net/todoso">bugtracker</a>.</p>
+				<p>Ask a question to, or start a discussion with our <a href="https://answers.launchpad.net/todoso">community</a>.</p>
+			</div>
+		</div>
 		<div id="scene">
 			<img src="image/mobile comet/screen.png">
 			<div id="screen">
@@ -31,9 +50,12 @@
 			<div id="logo"><a href="index.html"><img src="image/logo.png"></a></div>
 		</div>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript" src="script/jquery.verticalTab.js"></script>
 		<script src="script/jquery.scrollTo.js"></script>
 		<script>
 			$(function() {
+				$("#verticalTab").verticalTab();
+				
 				var ScrollTimeout,
 					currentSlide = 0,
 					imageTopDelta = $("#mobile img:eq(1)").offset().top - $("#mobile img:eq(0)").offset().top,

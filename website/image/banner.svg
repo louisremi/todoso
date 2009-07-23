@@ -15,9 +15,9 @@
    version="1.1"
    inkscape:version="0.47pre0 r21549"
    style="display:inline"
-   sodipodi:docname="todoso.svg"
+   sodipodi:docname="banner.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
-   inkscape:export-filename="/home/lrbabe/workspace/todoso/website/background.png"
+   inkscape:export-filename="/home/lrbabe/workspace/todoso/website/image/background.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -548,11 +548,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="295.98942"
-     inkscape:cy="79.805939"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="311.91389"
+     inkscape:cy="57.29044"
      inkscape:document-units="px"
-     inkscape:current-layer="g3811"
+     inkscape:current-layer="g3679"
      showgrid="false"
      inkscape:window-width="1280"
      inkscape:window-height="776"
@@ -597,20 +597,23 @@
      id="g3679"
      inkscape:groupmode="layer"
      inkscape:label="background"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <path
-       style="fill:#9b9b90;fill-opacity:1;stroke:none;filter:url(#filter4188)"
+       style="fill:#999999;fill-opacity:1;stroke:none;filter:url(#filter4188)"
        d="M 26.65625,10 C 17.429714,10 10,17.429714 10,26.65625 l 0,146.6875 C 10,182.57029 17.429714,190 26.65625,190 l 546.6875,0 C 582.57029,190 590,182.57029 590,173.34375 l 0,-146.6875 C 590,17.429714 582.57029,10 573.34375,10 l -546.6875,0 z"
        transform="translate(0,852.36218)"
-       id="rect3681" />
+       id="rect3681"
+       inkscape:export-filename="/home/lrbabe/workspace/todoso/website/image/background.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      style="display:inline"
      transform="translate(0,-852.36218)"
      id="g3811"
      inkscape:groupmode="layer"
-     inkscape:label="ink">
+     inkscape:label="ink"
+     sodipodi:insensitive="true">
     <g
        id="So"
        inkscape:export-xdpi="90"

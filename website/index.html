@@ -6,12 +6,27 @@
 <link rel="stylesheet" type="text/css" media="all"  href="css/template.css" />
 <link rel="stylesheet" type="text/css" media="all" href="css/grids.css" />
 <link rel="stylesheet" type="text/css" media="all" href="css/content.css" />
+
+<link rel="stylesheet" type="text/css" media="all" href="css/index.css" />
 <link rel="stylesheet" type="text/css" media="all" href="css/banner.css" />
 <link rel="stylesheet" type="text/css" media="all" href="css/mockups.css" />
-<link rel="stylesheet" type="text/css" media="all" href="css/specific.css" />
+
 <link rel="stylesheet" type="text/css" media="all" href="css/overlay.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/verticalTab.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/jquery-ui.css" />
+<!--<link rel="stylesheet" type="text/css" media="all" href="css/index.all.css.min.css" />-->
 </head>
 <body>
+<noscript>
+	<style type="text/css">
+		#vTabs a {
+			display: inline;
+		}
+		#verticalTab div {
+			display: block;
+		}
+	</style>
+</noscript>
 <div class="page">
 	<div class="head">
 		<div class="line">
@@ -25,82 +40,135 @@
 					<p id="littleTime" class="hidden"><span> little time.</span></p>
 				</div>				
 			</div>
-			<div class="unit size1of3 lastUnit alignRight">
-				<p><img style="display: inline;" src="http://en.gravatar.com/userimage/6183091/527397dfa651647938d986574192ac75.png"></p>
-				<p>Follow this project on <a href="http://www.lrbabe.com">my Blog</a></p>
-				<p>Follow me on <a href="http://twitter.com/lrbabe">Twitter</a></p>
-				<p>All ressources available on <a href="http://github.com/lrbabe/todoso/">Github</a></p>
+			<div id="moto" class="unit size1of3 lastUnit"  style="font-size: 1.3em;">
+				<p>
+					We want to let you easily create presentations and share it with your peers.
+				</p>
+				<p>
+					We believe that information should flow Freely between people.
+				</p>
+				<p>					
+					We don't want to waste your time, because we all have so much to do...
+				</p>
 			</div>
 		</div>
 	</div>
 	<div class="body">
-		<h2>Documentation</h2>
-		<ul class="simpleList">
-			<li>Project specification: <a title="pdf version of the project specification" href="http://www.lrbabe.com/sdoms/public/Project%20Specification.pdf">.pdf (2Mo)</a></li>
-		</ul>
-		<div id="mockups">
-			<h2>Mockups</h2>
-			<div class="line">			
-				<div class="unit size1of4">
-					<img title="First sketch of the management interface: a gmail for presentations, sort of." src="image/management_plain_thumbnail.png">
-				</div>
-				<div class="unit size1of4">
-					<img title="Second sketch of the management interface: when a presentation is selected, different options appear (to be determined)." src="image/management_thumbnail.png">
-				</div>
-				<div class="unit size1of4">
-					<img title="Example of a presentation embedded in a blog: the controls are under the content, à la blip.tv" src="image/embedded alternative_thumbnail.png">
-				</div>
-				<div class="unit size1of4 lastUnit">
-					<img title="Closer view of this embedded presentation: the controls are visible at any time." src="image/closer embedded alternative_thumbnail.png">
-				</div>
-			</div>
-			<div class="line">			
-				<div class="unit size1of4">
-					<img title="Appearance of an embedded presentation when displayed in full-screen: the controls are replaced by key like buttons to improve keyboard shortcuts's discoverability. The controls are visible only when the cursor hovers the content." src="image/player fullscreen2_thumbnail.png" />
-				</div>
-				<div class="unit size1of4">
-					<img title="Closer view of the controls: a tooltip is displayed under the button when the cursor hovers it." src="image/player fullscreen zoom2 play_thumbnail.png" />
-				</div>
-				<div class="unit size1of4">
-					<img title="Closer view of the controls: the tooltip is always in the locus of attention." src="image/player fullscreen zoom2 navigation_thumbnail.png" />
-				</div>
-				<div class="unit size1of4 lastUnit">
-					<img title="When an embedded presentation is in full-screen it is possible to navigate through the slides by zooming out. Another slide can be zoomed in by using the keyboard or clicking on it." src="image/player fullscreen navigation_thumbnail.png" />
-				</div>				
-			</div>
-			<div class="line">			
-				<div class="unit size1of4">
-					<img title="Since it is possible to scroll through the thumbnails and click to zoom on a slide, the arrow buttons are not required." src="image/player fullscreen navigation2_thumbnail.png" />
-				</div>
-				<div class="unit size1of4">
-					
-				</div>
-				<div class="unit size1of4">
-					
-				</div>
-				<div class="unit size1of4 lastUnit">
-					
-				</div>				
-			</div>		
-		</div>
-		<div id="prototypes">
-			<h2>Prototypes</h2>
-			<ul class="simpleList">
-				<li>
-					Viewing a presentation on a mobile device and using it to control a projected presentation:
-					<a href="mobile_comet.html"><img alt="the target page is not accessible to visually impaired users" src="image/mobile_comet.png"></a>
-				</li>
+		<div id="verticalTab">
+			<ul id="vTabs">
+				<li id="updateTab"><a href="#updates">Updates</a></li>
+				<li id="ressourceTab"><a href="#ressources">Ressources</a></li>
+				<li id="feedbackTab"><a href="#feedback">Feedback</a></li>
 			</ul>
+			<div id="updates">
+				<p>Follow the <a href="http://www.lrbabe.com">Blog</a> of this project.</p>
+				<p>Listen to our <a href="http://twitter.com/lrbabe">Twitts</a>.</p>
+			</div>
+			<div id="ressources">
+				<p>All ressources are available on <a href="http://github.com/lrbabe/todoso/">Github</a>.</p>
+				<p>Distributed under the <a href="http://www.fsf.org/licensing/licenses/agpl-3.0.html">Affero GPL 3</a> license</p>
+			</div>
+			<div id="feedback">
+				<p>Make a suggestion or report a problem using the <a href="https://bugs.launchpad.net/todoso">bugtracker</a>.</p>
+				<p>Ask a question to, or start a discussion with our <a href="https://answers.launchpad.net/todoso">community</a>.</p>
+			</div>
 		</div>
+		<div id="tabs">
+			<ul>
+				<li><a href="#mockups">See what it looks like</a></li>
+				<li><a href="#prototypes">Play with it</a></li>
+				<li><a href="#stories">Read its stories</a></li>
+			</ul>
+			<div id="mockups">
+				<h2>Mockups</h2>
+				<div class="line">			
+					<div class="unit size1of4">
+						<img title="First sketch of the management interface: a gmail for presentations, sort of." src="image/management_plain_thumbnail.png">
+					</div>
+					<div class="unit size1of4">
+						<img title="Second sketch of the management interface: when a presentation is selected, different options appear (to be determined)." src="image/management_thumbnail.png">
+					</div>
+					<div class="unit size1of4">
+						<img title="Example of a presentation embedded in a blog: the controls are under the content, à la blip.tv" src="image/embedded alternative_thumbnail.png">
+					</div>
+					<div class="unit size1of4 lastUnit">
+						<img title="Closer view of this embedded presentation: the controls are visible at any time." src="image/closer embedded alternative_thumbnail.png">
+					</div>
+				</div>
+				<div class="line">			
+					<div class="unit size1of4">
+						<img title="Appearance of an embedded presentation when displayed in full-screen: the controls are replaced by key like buttons to improve keyboard shortcuts's discoverability. The controls are visible only when the cursor hovers the content." src="image/player fullscreen2_thumbnail.png" />
+					</div>
+					<div class="unit size1of4">
+						<img title="Closer view of the controls: a tooltip is displayed under the button when the cursor hovers it." src="image/player fullscreen zoom2 play_thumbnail.png" />
+					</div>
+					<div class="unit size1of4">
+						<img title="Closer view of the controls: the tooltip is always in the locus of attention." src="image/player fullscreen zoom2 navigation_thumbnail.png" />
+					</div>
+					<div class="unit size1of4 lastUnit">
+						<img title="When an embedded presentation is in full-screen it is possible to navigate through the slides by zooming out. Another slide can be zoomed in by clicking on it." src="image/player fullscreen navigation2_thumbnail.png" />
+					</div>				
+				</div>
+				<div class="line">			
+					<div class="unit size1of4">
+						
+					</div>
+					<div class="unit size1of4">
+						
+					</div>
+					<div class="unit size1of4">
+						
+					</div>
+					<div class="unit size1of4 lastUnit">
+						
+					</div>				
+				</div>		
+			</div>
+			<div id="prototypes">
+				<h2>Prototypes</h2>
+				<div class="line">
+					<div class="unit size1of3">
+						<h5><a href="mobile_comet.html">Mobile navigation</a></h5>
+						<a href="mobile_comet.html"><img alt="the target page is not accessible to visually impaired users" src="image/mobile_comet.png"></a>
+						<p>
+							Demonstrates how it is possible to visualize and navigate through a presentation on a device with a limited screen size. And how mobile devices could benefit a lecturer.
+						</p>
+					</div>
+					<div class="unit size1of3">
+						
+					</div>
+					<div class="unit size1of3 lastUnit">
+						
+					</div>
+				</div>
+			</div>
+			<div id="stories">
+				<h2>Documentation</h2>
+				<ul class="simpleList">
+					<li>Project specification: <a title="pdf version of the project specification" href="http://www.lrbabe.com/sdoms/public/Project%20Specification.pdf">.pdf (2Mo)</a></li>
+				</ul>
+			</div>
+		</div>			
 	</div>
 	<div class="foot">
 		<p>This website has been built using great pieces of Free Software such as <a href="http://www.aptana.com/">Aptana</a>, <a href="http://www.inkscape.org">Inkscape</a>, <a href="http://www.jquery.com">jQuery</a>, <a href="http://wiki.github.com/stubbornella/oocss">OOCSS</a> and <a href="http://getfirebug">Firebug</a>.</p>		
 	</div>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
 <script type="text/javascript" src="script/jquery.todosOverlay.js"></script>
+<script type="text/javascript" src="script/jquery.verticalTab.js"></script>
+<script type="text/javascript" src="script/jquery.cookie.js"></script>
+<script type="text/javascript" src="script/ui.tabs.js"></script>
+<!--<script type="text/javascript" src="script/index.js.ycomp.js"></script>-->
 <script type="text/javascript">
 	$(function() {
+		$("#tabs").tabs({cookie: {}});
+		
+		$("#mockups").todosOverlay();
+		
+		$("#verticalTab").verticalTab();		
+		
 		// Banner animation
 		setTimeout(function() {
 			$("#soMuch").animate({width: "166px"}, 800);
@@ -109,9 +177,7 @@
 			$("#comma").animate({width: "10px"}, 800);
 			$("#So").animate({left: "315px"}, 800);
 			$("#littleTime").animate({width: "201px"}, 800);
-		}, 2000);
-		
-		$("#mockups").todosOverlay();
+		}, 2000);		
 	});
 </script>
 </body>
