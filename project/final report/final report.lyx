@@ -1,0 +1,171 @@
+#LyX 1.6.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+ToDoSo: using the Web to offer presentation software users a new experience
+\end_layout
+
+\begin_layout Author
+Louis-Rémi Babé
+\end_layout
+
+\begin_layout Abstract
+There are different kind of software related to presentations:
+\end_layout
+
+\begin_layout Abstract
+software related to the authoring of the application (alone or colaboratively
+\end_layout
+
+\begin_layout Abstract
+software related to the distribution of the contentdocument (being the presentat
+ion itself or a recorded lecture)
+\end_layout
+
+\begin_layout Abstract
+software related to delivery of live presentations (off-line or on-line)
+\end_layout
+
+\begin_layout Abstract
+Some software can be classified in more than one of those catergories.
+\end_layout
+
+\begin_layout Abstract
+Out of the existing solutions, which one are the best ones, which features
+ are the most important for users (being authors or viewers)? What can be
+ improved in those applications?
+\end_layout
+
+\begin_layout Abstract
+To answer the first question, a state of the art is required as well as
+ a user survey.
+\end_layout
+
+\begin_layout Abstract
+The survey can also help inform improvements that users would like to see
+ in those software.
+ But we cannot expect users to be creative instead of us, and we cannot
+ expect them to care about the particular needs of other users such as visually
+ impaired users or users suffering concentration problems.
+ However, we can see that the user interface hasn't changed for 10 years,
+ only few solutions claim to be accessible (none of them being usable by
+ non-programmer users) and Web applications are just starting to compete
+ with desktop ones.
+ Maybe it is possible to improve the usability, the accessibility and to
+ make a better use of the Web as a platform.
+\end_layout
+
+\begin_layout Abstract
+We evaluate the accessibility of exisiting applications and propose improvements
+\end_layout
+
+\begin_layout Abstract
+We evaluate the usability of exisiting applications and propose improvements
+\end_layout
+
+\begin_layout Abstract
+We propose improvements that the Web allows in presentation software
+\end_layout
+
+\begin_layout Abstract
+Then we propose technical way to achieve those propositions and make it
+ work for all users (cross-platform/browser)
+\end_layout
+
+\begin_layout Abstract
+and we implement some prototypes for different part of the final applications
+\end_layout
+
+\begin_layout Abstract
+Finally we conduct a user evaluation of those prototypes
+\end_layout
+
+\begin_layout Abstract
+In the mean time, what can be done to open this project to the community?
+\end_layout
+
+\begin_layout Standard
+Here comes the project specification
+\end_layout
+
+\begin_layout Standard
+In the project specification we did not consider the users expectations.
+ So be it, let's make a survey! And then we will be able to draw a list
+ of the features that will make it into our application.
+ And prioritize the design and implementation tasks (together with consideration
+s about the innovation that are expected in some parts).
+\end_layout
+
+\begin_layout Standard
+We also did not consider the fact that users may be reluctant to adopt new
+ concept of interfaces when all existing solutions adopted a similar one
+ (because of habits), despite the theoritical qualities of the new one.
+ Instead of aiming for an interface that people would prefer, it seems more
+ realistic to aim for an interface that would not be too disturbing in a
+ first place.
+\end_layout
+
+\begin_layout Standard
+In the project specification we did draw conclusions on what can be improved
+ in term of accessibility (although it may was too early to do so) but we
+ need to see what can be improved in term of usability.
+\end_layout
+
+\begin_layout Itemize
+The navigation
+\end_layout
+
+\begin_layout Itemize
+The process of creating layouts/templates and reusing them
+\end_layout
+
+\begin_layout Itemize
+The way to organize the library of documents and to search it
+\end_layout
+
+\begin_layout Itemize
+The way to animate the presentation
+\end_layout
+
+\end_body
+\end_document

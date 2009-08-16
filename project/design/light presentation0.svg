@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="768"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47pre0 r21549"
+   sodipodi:docname="light presentation0.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   style="display:inline"
+   inkscape:export-filename="/home/lrbabe/workspace/todoso/server/fileDb/image/p0 s11.png"
+   inkscape:export-xdpi="35.15625"
+   inkscape:export-ydpi="35.15625">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 384 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1024 : 384 : 1"
+       inkscape:persp3d-origin="512 : 256 : 1"
+       id="perspective81" />
+    <radialGradient
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.75,-301.31161,72.274187)"
+       r="512"
+       fy="415.63443"
+       fx="813.31158"
+       cy="415.63443"
+       cx="813.31158"
+       id="radialGradient3161-1"
+       xlink:href="#linearGradient3155-1"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient3155-1">
+      <stop
+         id="stop3157-0"
+         offset="0"
+         style="stop-color:#404040;stop-opacity:1;" />
+      <stop
+         id="stop3159-7"
+         offset="1"
+         style="stop-color:#0a0a0a;stop-opacity:1;" />
+    </linearGradient>
+    <filter
+       id="filter3918"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-0.25"
+       y="-0.25"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3920"
+         in="SourceAlpha"
+         stdDeviation="10.000000"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix3922"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.700000 0 " />
+      <feOffset
+         id="feOffset3924"
+         in="bluralpha"
+         dx="15.000000"
+         dy="15.000000"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge3926">
+        <feMergeNode
+           id="feMergeNode3928"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode3930"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <inkscape:perspective
+       id="perspective3218"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3243"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3155-1"
+       id="radialGradient3093"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.75,-301.31161,72.274187)"
+       cx="813.31158"
+       cy="415.63443"
+       fx="813.31158"
+       fy="415.63443"
+       r="512" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3155-1"
+       id="radialGradient3105"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.75,-602.62322,48.548374)"
+       cx="813.31158"
+       cy="415.63443"
+       fx="813.31158"
+       fy="415.63443"
+       r="512" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3155-1"
+       id="radialGradient3117"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.75,-602.62322,48.548374)"
+       cx="813.31158"
+       cy="415.63443"
+       fx="813.31158"
+       fy="415.63443"
+       r="512" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="659.04026"
+     inkscape:cy="356.83461"
+     inkscape:document-units="px"
+     inkscape:current-layer="g3018"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     transform="translate(301.31161,23.725813)"
+     id="g3069"
+     inkscape:groupmode="layer"
+     inkscape:label="background"
+     sodipodi:insensitive="true">
+    <rect
+       ry="0"
+       rx="0"
+       y="-23.725813"
+       x="-301.31161"
+       height="768"
+       width="1024"
+       id="rect3073"
+       style="fill:url(#radialGradient3105);fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     inkscape:label="Slide 0"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(301.31161,23.725813)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <g
+       id="g3188"
+       transform="translate(-301.31161,-57.586584)">
+      <g
+         transform="translate(124.26637,297.90857)"
+         id="g2404">
+        <text
+           xml:space="preserve"
+           style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+           x="68.540627"
+           y="100.57143"
+           id="text3167"><tspan
+             sodipodi:role="line"
+             id="tspan3169"
+             x="68.540627"
+             y="100.57143">World Dominashun</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:64px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+           x="64.540627"
+           y="96.571426"
+           id="text3163"><tspan
+             sodipodi:role="line"
+             id="tspan3165"
+             x="64.540627"
+             y="96.571426">World Dominashun</tspan></text>
+      </g>
+      <rect
+         y="405.71426"
+         x="189.28572"
+         height="2"
+         width="645.71423"
+         id="rect3171"
+         style="fill:#ff0000;fill-opacity:1;stroke:none" />
+      <text
+         id="text3181"
+         y="493.68954"
+         x="361.98761"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           style="font-size:48px;font-style:italic;fill:#e6e6e6"
+           id="tspan2552"
+           y="493.68954"
+           x="361.98761"
+           sodipodi:role="line">&quot;Yes, we cat!&quot;</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Slide 1"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="68.540627"
+       y="100.57143"
+       id="text3167-0"><tspan
+         sodipodi:role="line"
+         id="tspan3169-4"
+         x="68.540627"
+         y="100.57143">A Cat's Guide to World Dominashun</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="64.540627"
+       y="96.571426"
+       id="text3163-2"><tspan
+         sodipodi:role="line"
+         id="tspan3165-9"
+         x="64.540627"
+         y="96.571426">A Cat's Guide to World Dominashun</tspan></text>
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect3171-6"
+       width="892.85712"
+       height="4.2857141"
+       x="65.571442"
+       y="111.42857" />
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="107.28644"
+       y="231.67659"
+       id="text3173"><tspan
+         sodipodi:role="line"
+         id="tspan3175"
+         x="107.28644"
+         y="231.67659"
+         style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold">Gather at night time, don't speak in their presence</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="106.02644"
+       y="400.8324"
+       id="text3181-1"><tspan
+         sodipodi:role="line"
+         x="106.02644"
+         y="400.8324"
+         id="tspan3191">Regurgitation is the price for a </tspan><tspan
+         sodipodi:role="line"
+         x="106.02644"
+         y="445.8324"
+         id="tspan5037">cuddly fur</tspan></text>
+    <g
+       id="g5019"
+       transform="translate(-21.428571,11.375122)">
+      <rect
+         y="276.7818"
+         x="666.70074"
+         height="251.30696"
+         width="335.07596"
+         id="rect3185"
+         style="fill:#ffffff;fill-opacity:0.8133971;stroke:none" />
+      <path
+         sodipodi:nodetypes="ccc"
+         id="path3193"
+         d="m 686.90373,303.24861 0,208.15234 288.90363,0"
+         style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text3195"
+         y="296.25876"
+         x="672.98492"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitestream Vera Sans;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+           y="296.25876"
+           x="672.98492"
+           id="tspan3197"
+           sodipodi:role="line">daily cleansing</tspan></text>
+      <text
+         id="text3199"
+         y="502.49231"
+         x="843.76166"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="502.49231"
+           x="843.76166"
+           id="tspan3201"
+           sodipodi:role="line">human acceptance</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         id="path3203"
+         d="M 686.90373,510.4111 C 892.97485,498.28927 952.57385,336.66486 952.57385,336.66486"
+         style="fill:none;stroke:#ff0101;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none" />
+      <path
+         sodipodi:nodetypes="ccc"
+         id="path5013"
+         d="m 943.98756,342.53637 9.09137,-7.38674 2.27284,11.36422"
+         style="fill:none;stroke:#ff0101;stroke-width:2.0999999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="105.77444"
+       y="610.4162"
+       id="text5015"><tspan
+         sodipodi:role="line"
+         id="tspan5017"
+         x="105.77444"
+         y="610.4162">Planning world destrucshun while pretending to </tspan><tspan
+         sodipodi:role="line"
+         x="105.77444"
+         y="655.4162"
+         id="tspan5087">sleep </tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path5029"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,85.813861)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path5031"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,256.10797)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path5033"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,466.68177)" />
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="952.57385"
+       y="719.30963"
+       id="text5083"><tspan
+         sodipodi:role="line"
+         id="tspan5085"
+         x="952.57385"
+         y="719.30963">1</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Slide 2"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="68.540627"
+       y="100.57143"
+       id="text3167-3"><tspan
+         sodipodi:role="line"
+         id="tspan3169-7"
+         x="68.540627"
+         y="100.57143">A Cat's Guide to World Dominashun</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="64.540627"
+       y="96.571426"
+       id="text3163-1"><tspan
+         sodipodi:role="line"
+         id="tspan3165-2"
+         x="64.540627"
+         y="96.571426">A Cat's Guide to World Dominashun</tspan></text>
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect3171-2"
+       width="892.85712"
+       height="4.2857141"
+       x="65.571442"
+       y="111.42857" />
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="107.28644"
+       y="231.67659"
+       id="text3173-0"><tspan
+         sodipodi:role="line"
+         id="tspan3175-2"
+         x="107.28644"
+         y="231.67659"
+         style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold">Be careful, some are already suspicious:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="126.13456"
+       y="376.54669"
+       id="text3181-17"><tspan
+         sodipodi:role="line"
+         x="126.13456"
+         y="376.54669"
+         id="tspan5037-5"
+         style="font-style:italic">&quot;In ancient times, cats were worshiped as gods. </tspan><tspan
+         sodipodi:role="line"
+         x="126.13456"
+         y="421.54669"
+         id="tspan2552-1"
+         style="font-style:italic">They have never forgotten this.&quot; </tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path5029-7"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,85.813861)" />
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="952.57385"
+       y="719.30963"
+       id="text5083-4"><tspan
+         sodipodi:role="line"
+         id="tspan5085-1"
+         x="952.57385"
+         y="719.30963">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="576.23639"
+       y="471.11627"
+       id="text2558"><tspan
+         sodipodi:role="line"
+         x="576.23639"
+         y="471.11627"
+         id="tspan2562"
+         style="font-weight:normal;-inkscape-font-specification:Century Schoolbook L Italic"
+         transform="translate(479.63846,0)">― Terry Pratchett</tspan></text>
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="Slide 3"
+     id="g2923"
+     inkscape:groupmode="layer"
+     sodipodi:insensitive="true">
+    <text
+       id="text2929"
+       y="100.57143"
+       x="68.540627"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       xml:space="preserve"><tspan
+         y="100.57143"
+         x="68.540627"
+         id="tspan2931"
+         sodipodi:role="line">Lorem ipsum dolor sit amet</tspan></text>
+    <text
+       id="text2933"
+       y="96.571426"
+       x="64.540627"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       xml:space="preserve"><tspan
+         y="96.571426"
+         x="64.540627"
+         id="tspan2935"
+         sodipodi:role="line">Lorem ipsum dolor sit amet</tspan></text>
+    <rect
+       y="111.42857"
+       x="65.571442"
+       height="4.2857141"
+       width="892.85712"
+       id="rect2937"
+       style="fill:#808080;fill-opacity:1;stroke:none" />
+    <text
+       id="text2939"
+       y="231.67659"
+       x="107.28644"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       xml:space="preserve"><tspan
+         style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold"
+         y="231.67659"
+         x="107.28644"
+         id="tspan2941"
+         sodipodi:role="line">Consectetur adipiscing elit. Donec cursus purus nec </tspan><tspan
+         id="tspan3268"
+         style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold"
+         y="276.67657"
+         x="107.28644"
+         sodipodi:role="line">nisi gravida sollicitudin.</tspan></text>
+    <text
+       id="text2943"
+       y="422.37622"
+       x="106.02644"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       xml:space="preserve"><tspan
+         id="tspan2947"
+         y="422.37622"
+         x="106.02644"
+         sodipodi:role="line">Donec at metus in velit facilisis scelerisque.</tspan></text>
+    <text
+       id="text2967"
+       y="610.4162"
+       x="105.77444"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       xml:space="preserve"><tspan
+         id="tspan2971"
+         y="610.4162"
+         x="105.77444"
+         sodipodi:role="line">Praesent imperdiet commodo mi, suscipit suscipit</tspan><tspan
+         id="tspan3286"
+         y="655.4162"
+         x="105.77444"
+         sodipodi:role="line">lorem tincidunt vel.</tspan></text>
+    <path
+       transform="matrix(0.45,0,0,0.45,61.316261,85.813829)"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       sodipodi:ry="10.101525"
+       sodipodi:rx="10.101525"
+       sodipodi:cy="303.32983"
+       sodipodi:cx="64.649765"
+       id="path2973"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       transform="matrix(0.45,0,0,0.45,61.316261,276.2478)"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       sodipodi:ry="10.101525"
+       sodipodi:rx="10.101525"
+       sodipodi:cy="303.32983"
+       sodipodi:cx="64.649765"
+       id="path2975"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       transform="matrix(0.45,0,0,0.45,61.316261,466.68176)"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       sodipodi:ry="10.101525"
+       sodipodi:rx="10.101525"
+       sodipodi:cy="303.32983"
+       sodipodi:cx="64.649765"
+       id="path2977"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <text
+       id="text2979"
+       y="719.30963"
+       x="952.57385"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       xml:space="preserve"><tspan
+         y="719.30963"
+         x="952.57385"
+         id="tspan2981"
+         sodipodi:role="line">3</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g3170"
+     inkscape:label="Slide 4"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="68.540627"
+       y="100.57143"
+       id="text3176"><tspan
+         sodipodi:role="line"
+         id="tspan3178"
+         x="68.540627"
+         y="100.57143">Sed sodales rutrum semper</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="64.540627"
+       y="96.571426"
+       id="text3180"><tspan
+         sodipodi:role="line"
+         id="tspan3182"
+         x="64.540627"
+         y="96.571426">Sed sodales rutrum semper</tspan></text>
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect3184"
+       width="892.85712"
+       height="4.2857141"
+       x="65.571442"
+       y="111.42857" />
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="107.28644"
+       y="231.67659"
+       id="text3186"><tspan
+         sodipodi:role="line"
+         id="tspan3188"
+         x="107.28644"
+         y="231.67659"
+         style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold">Morbi dictum egestas nisi sit amet placerat.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="106.02644"
+       y="425.74222"
+       id="text3190"><tspan
+         sodipodi:role="line"
+         x="106.02644"
+         y="425.74222"
+         id="tspan3192">Curabitur quis dapibus turpis.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="105.77444"
+       y="610.4162"
+       id="text3194"><tspan
+         sodipodi:role="line"
+         x="105.77444"
+         y="610.4162"
+         id="tspan3196">Donec consectetur suscipit justo, vel vehicula ipsum</tspan><tspan
+         id="tspan3288"
+         sodipodi:role="line"
+         x="105.77444"
+         y="655.4162">ullamcorper vitae.</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3198"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,85.813829)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3200"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,276.2478)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3202"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,466.68176)" />
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="952.57385"
+       y="719.30963"
+       id="text3204"><tspan
+         sodipodi:role="line"
+         id="tspan3206"
+         x="952.57385"
+         y="719.30963">4</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g3132"
+     inkscape:label="Slide 5"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="68.540627"
+       y="100.57143"
+       id="text3138"><tspan
+         sodipodi:role="line"
+         id="tspan3140"
+         x="68.540627"
+         y="100.57143">Maecenas vel augue eleifend eros</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="64.540627"
+       y="96.571426"
+       id="text3142"><tspan
+         sodipodi:role="line"
+         id="tspan3144"
+         x="64.540627"
+         y="96.571426">Maecenas vel augue eleifend eros</tspan></text>
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect3146"
+       width="892.85712"
+       height="4.2857141"
+       x="65.571442"
+       y="111.42857" />
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="107.28644"
+       y="231.67659"
+       id="text3148"><tspan
+         sodipodi:role="line"
+         id="tspan3150"
+         x="107.28644"
+         y="231.67659"
+         style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold">Molestie vehicula at in nisi.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="106.02644"
+       y="425.74222"
+       id="text3152"><tspan
+         sodipodi:role="line"
+         x="106.02644"
+         y="425.74222"
+         id="tspan3154">Duis non turpis enim, vel ornare lacus. Etiam ut </tspan><tspan
+         id="tspan3290"
+         sodipodi:role="line"
+         x="106.02644"
+         y="470.74222">eleifend felis.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="105.77444"
+       y="610.4162"
+       id="text3156"><tspan
+         sodipodi:role="line"
+         x="105.77444"
+         y="610.4162"
+         id="tspan3158">Duis sed eleifend turpis.</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3160"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,85.813829)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3162"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,276.2478)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3164"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,466.68176)" />
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="952.57385"
+       y="719.30963"
+       id="text3166"><tspan
+         sodipodi:role="line"
+         id="tspan3168"
+         x="952.57385"
+         y="719.30963">5</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g3094"
+     inkscape:label="Slide 6"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="68.540627"
+       y="100.57143"
+       id="text3100"><tspan
+         sodipodi:role="line"
+         id="tspan3102"
+         x="68.540627"
+         y="100.57143">Praesent egestas quam quis erat</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="64.540627"
+       y="96.571426"
+       id="text3104"><tspan
+         sodipodi:role="line"
+         id="tspan3106"
+         x="64.540627"
+         y="96.571426">Praesent egestas quam quis erat</tspan></text>
+    <rect
+       style="fill:#808080;fill-opacity:1;stroke:none"
+       id="rect3108"
+       width="892.85712"
+       height="4.2857141"
+       x="65.571442"
+       y="111.42857" />
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="107.28644"
+       y="231.67659"
+       id="text3110"><tspan
+         sodipodi:role="line"
+         id="tspan3112"
+         x="107.28644"
+         y="231.67659"
+         style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold">Pretium at iaculis urna luctus.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+       x="106.02644"
+       y="425.74222"
+       id="text3114"><tspan
+         sodipodi:role="line"
+         x="106.02644"
+         y="425.74222"
+         id="tspan3116">Cum sociis natoque penatibus et magnis dis </tspan><tspan
+         id="tspan3292"
+         sodipodi:role="line"
+         x="106.02644"
+         y="470.74222">parturient montes, nascetur ridiculus mus.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="105.77444"
+       y="610.4162"
+       id="text3118"><tspan
+         sodipodi:role="line"
+         x="105.77444"
+         y="610.4162"
+         id="tspan3120">Cras nisi libero, eleifend ac blandit nec, venenatis </tspan><tspan
+         id="tspan3294"
+         sodipodi:role="line"
+         x="105.77444"
+         y="655.4162">euismod nisi.</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3122"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,85.813829)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3124"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,276.2478)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="path3126"
+       sodipodi:cx="64.649765"
+       sodipodi:cy="303.32983"
+       sodipodi:rx="10.101525"
+       sodipodi:ry="10.101525"
+       d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+       transform="matrix(0.45,0,0,0.45,61.316261,466.68176)" />
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+       x="952.57385"
+       y="719.30963"
+       id="text3128"><tspan
+         sodipodi:role="line"
+         id="tspan3130"
+         x="952.57385"
+         y="719.30963">6</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g3056"
+     inkscape:label="Slide 7"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       id="g3058"
+       inkscape:label="Layer 1"
+       inkscape:export-filename="/home/lrbabe/workspace/todoso/project/design/slide 7.png"
+       inkscape:export-xdpi="52.734375"
+       inkscape:export-ydpi="52.734375">
+      <text
+         id="text3062"
+         y="100.57143"
+         x="68.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="100.57143"
+           x="68.540627"
+           id="tspan3064"
+           sodipodi:role="line">Nulla porta facilisis mauris nec</tspan></text>
+      <text
+         id="text3066"
+         y="96.571426"
+         x="64.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="96.571426"
+           x="64.540627"
+           id="tspan3068"
+           sodipodi:role="line">Nulla porta facilisis mauris nec</tspan></text>
+      <rect
+         y="111.42857"
+         x="65.571442"
+         height="4.2857141"
+         width="892.85712"
+         id="rect3070"
+         style="fill:#808080;fill-opacity:1;stroke:none" />
+      <text
+         id="text3072"
+         y="231.67659"
+         x="107.28644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold"
+           y="231.67659"
+           x="107.28644"
+           id="tspan3074"
+           sodipodi:role="line">Sodales.</tspan></text>
+      <text
+         id="text3076"
+         y="425.74222"
+         x="106.02644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           id="tspan3078"
+           y="425.74222"
+           x="106.02644"
+           sodipodi:role="line">Maecenas bibendum mauris in mauris pretium </tspan><tspan
+           y="470.74222"
+           x="106.02644"
+           sodipodi:role="line"
+           id="tspan3296">semper nec feugiat sapien</tspan></text>
+      <text
+         id="text3080"
+         y="610.4162"
+         x="105.77444"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           id="tspan3082"
+           y="610.4162"
+           x="105.77444"
+           sodipodi:role="line">Praesent at sem non lorem ornare suscipit ut at </tspan><tspan
+           y="655.4162"
+           x="105.77444"
+           sodipodi:role="line"
+           id="tspan3298">lectus</tspan></text>
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,85.813829)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path3084"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,276.2478)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path3086"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,466.68176)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path3088"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         id="text3090"
+         y="719.30963"
+         x="952.57385"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="719.30963"
+           x="952.57385"
+           id="tspan3092"
+           sodipodi:role="line">7</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g3018"
+     inkscape:label="Slide 8"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       id="g3020"
+       inkscape:label="Layer 1"
+       inkscape:export-filename="/home/lrbabe/workspace/todoso/project/design/slide 8.png"
+       inkscape:export-xdpi="52.734375"
+       inkscape:export-ydpi="52.734375">
+      <text
+         id="text3024"
+         y="100.57143"
+         x="68.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="100.57143"
+           x="68.540627"
+           id="tspan3026"
+           sodipodi:role="line">Sed in tellus erat</tspan></text>
+      <text
+         id="text3028"
+         y="96.571426"
+         x="64.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="96.571426"
+           x="64.540627"
+           id="tspan3030"
+           sodipodi:role="line">Sed in tellus erat</tspan></text>
+      <rect
+         y="111.42857"
+         x="65.571442"
+         height="4.2857141"
+         width="892.85712"
+         id="rect3032"
+         style="fill:#808080;fill-opacity:1;stroke:none" />
+      <text
+         id="text3034"
+         y="231.67659"
+         x="107.28644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold"
+           y="231.67659"
+           x="107.28644"
+           id="tspan3036"
+           sodipodi:role="line">Vel molestie arcu.</tspan></text>
+      <text
+         id="text3038"
+         y="425.74222"
+         x="106.02644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           id="tspan3040"
+           y="425.74222"
+           x="106.02644"
+           sodipodi:role="line">Suspendisse venenatis odio vitae nisl convallis eget</tspan><tspan
+           y="470.74222"
+           x="106.02644"
+           sodipodi:role="line"
+           id="tspan3300">convallis lectus tincidunt.</tspan></text>
+      <text
+         id="text3042"
+         y="610.4162"
+         x="105.77444"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           id="tspan3044"
+           y="610.4162"
+           x="105.77444"
+           sodipodi:role="line">Morbi pharetra velit lobortis neque feugiat non </tspan><tspan
+           y="655.4162"
+           x="105.77444"
+           sodipodi:role="line"
+           id="tspan3302">egestas justo sagittis. </tspan></text>
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,85.813829)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path3046"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,276.2478)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path3048"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,466.68176)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path3050"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         id="text3052"
+         y="719.30963"
+         x="952.57385"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="719.30963"
+           x="952.57385"
+           id="tspan3054"
+           sodipodi:role="line">8</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g2980"
+     inkscape:label="Slide 9"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       id="g2982"
+       inkscape:label="Layer 1"
+       inkscape:export-filename="/home/lrbabe/workspace/todoso/project/design/slide 9.png"
+       inkscape:export-xdpi="52.734375"
+       inkscape:export-ydpi="52.734375">
+      <text
+         id="text2986"
+         y="100.57143"
+         x="68.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="100.57143"
+           x="68.540627"
+           id="tspan2988"
+           sodipodi:role="line">Sed mollis, quam a convallis iaculis</tspan></text>
+      <text
+         id="text2990"
+         y="96.571426"
+         x="64.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="96.571426"
+           x="64.540627"
+           id="tspan2992"
+           sodipodi:role="line">Sed mollis, quam a convallis iaculis</tspan></text>
+      <rect
+         y="111.42857"
+         x="65.571442"
+         height="4.2857141"
+         width="892.85712"
+         id="rect2994"
+         style="fill:#808080;fill-opacity:1;stroke:none" />
+      <text
+         id="text2996"
+         y="231.67659"
+         x="107.28644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold"
+           y="231.67659"
+           x="107.28644"
+           id="tspan2998"
+           sodipodi:role="line">Tellus nisi gravida enim, in fermentum nulla elit </tspan><tspan
+           style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold"
+           y="276.67657"
+           x="107.28644"
+           sodipodi:role="line"
+           id="tspan3304">non dolor.</tspan></text>
+      <text
+         id="text3000"
+         y="425.74222"
+         x="106.02644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           id="tspan3002"
+           y="425.74222"
+           x="106.02644"
+           sodipodi:role="line">Sed non orci sit amet ipsum congue tempus.</tspan></text>
+      <text
+         id="text3004"
+         y="610.4162"
+         x="105.77444"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           id="tspan3006"
+           y="610.4162"
+           x="105.77444"
+           sodipodi:role="line">Sed rutrum metus vel enim suscipit pharetra.</tspan></text>
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,85.813829)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path3008"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,276.2478)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path3010"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,466.68176)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path3012"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         id="text3014"
+         y="719.30963"
+         x="952.57385"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="719.30963"
+           x="952.57385"
+           id="tspan3016"
+           sodipodi:role="line">9</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g2941"
+     inkscape:label="Slide 10"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       id="g2943"
+       inkscape:label="Layer 1"
+       inkscape:export-filename="/home/lrbabe/workspace/todoso/project/design/slide 10.png"
+       inkscape:export-xdpi="52.734375"
+       inkscape:export-ydpi="52.734375">
+      <text
+         id="text2947"
+         y="100.57143"
+         x="68.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="100.57143"
+           x="68.540627"
+           id="tspan2949"
+           sodipodi:role="line">Aenean magna lorem</tspan></text>
+      <text
+         id="text2951"
+         y="96.571426"
+         x="64.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="96.571426"
+           x="64.540627"
+           id="tspan2953"
+           sodipodi:role="line">Aenean magna lorem</tspan></text>
+      <rect
+         y="111.42857"
+         x="65.571442"
+         height="4.2857141"
+         width="892.85712"
+         id="rect2955"
+         style="fill:#808080;fill-opacity:1;stroke:none" />
+      <text
+         id="text2957"
+         y="231.67659"
+         x="107.28644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold"
+           y="231.67659"
+           x="107.28644"
+           id="tspan2959"
+           sodipodi:role="line">Rutrum a volutpat ac, rutrum eu nulla. </tspan></text>
+      <text
+         id="text2961"
+         y="425.74222"
+         x="106.02644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           id="tspan2963"
+           y="425.74222"
+           x="106.02644"
+           sodipodi:role="line">Nulla facilisi.</tspan></text>
+      <text
+         id="text2965"
+         y="610.4162"
+         x="105.77444"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           id="tspan2967"
+           y="610.4162"
+           x="105.77444"
+           sodipodi:role="line">Ut non est eu augue malesuada rhoncus.</tspan></text>
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,85.813829)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path2969"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,276.2478)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path2971"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,466.68176)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path2974"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         id="text2976-5"
+         y="719.30963"
+         x="924.24335"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="719.30963"
+           x="924.24335"
+           id="tspan2978-4"
+           sodipodi:role="line">10</tspan></text>
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g2903"
+     inkscape:label="Slide 11"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       id="g2905"
+       inkscape:label="Layer 1"
+       inkscape:export-filename="/home/lrbabe/workspace/todoso/project/design/slide 11.png"
+       inkscape:export-xdpi="52.734375"
+       inkscape:export-ydpi="52.734375">
+      <text
+         id="text2909"
+         y="100.57143"
+         x="68.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="100.57143"
+           x="68.540627"
+           id="tspan2911"
+           sodipodi:role="line">In tristique ante sem</tspan></text>
+      <text
+         id="text2913"
+         y="96.571426"
+         x="64.540627"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="96.571426"
+           x="64.540627"
+           id="tspan2915"
+           sodipodi:role="line">In tristique ante sem</tspan></text>
+      <rect
+         y="111.42857"
+         x="65.571442"
+         height="4.2857141"
+         width="892.85712"
+         id="rect2917"
+         style="fill:#808080;fill-opacity:1;stroke:none" />
+      <text
+         id="text2919"
+         y="231.67659"
+         x="107.28644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           style="font-size:36px;font-style:normal;-inkscape-font-specification:Century Schoolbook L Bold"
+           y="231.67659"
+           x="107.28644"
+           id="tspan2921"
+           sodipodi:role="line">Sed tincidunt risus.</tspan></text>
+      <text
+         id="text2923"
+         y="425.74222"
+         x="106.02644"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Bold"
+         xml:space="preserve"><tspan
+           id="tspan2925"
+           y="425.74222"
+           x="106.02644"
+           sodipodi:role="line">Quisque in justo arcu, et ornare metus.</tspan></text>
+      <text
+         id="text2927"
+         y="610.4162"
+         x="105.77444"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           id="tspan2929"
+           y="610.4162"
+           x="105.77444"
+           sodipodi:role="line">Suspendisse vehicula tristique sapien, vitae congue </tspan><tspan
+           y="655.4162"
+           x="105.77444"
+           sodipodi:role="line"
+           id="tspan3327">dolor lacinia vel.</tspan></text>
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,85.813829)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path2931"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,276.2478)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path2933"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.45,0,0,0.45,61.316261,466.68176)"
+         d="m 74.75129,303.32983 a 10.101525,10.101525 0 1 1 -20.20305,0 10.101525,10.101525 0 1 1 20.20305,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="10.101525"
+         sodipodi:cy="303.32983"
+         sodipodi:cx="64.649765"
+         id="path2935"
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <text
+         id="text2937-9"
+         y="719.30963"
+         x="925.01135"
+         style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Century Schoolbook L;-inkscape-font-specification:Century Schoolbook L Medium"
+         xml:space="preserve"><tspan
+           y="719.30963"
+           x="925.01135"
+           id="tspan2939-8"
+           sodipodi:role="line">11</tspan></text>
+    </g>
+  </g>
+</svg>

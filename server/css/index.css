@@ -1,0 +1,14 @@
+.head {
+	margin: 20px auto 0; 
+	width: 950px;
+	height: 50px;
+}
+
+.ubiquity {
+	 margin: 0 auto;
+	 width: 600px;
+}
+
+.ubiquity input {
+	width: 90%;
+}

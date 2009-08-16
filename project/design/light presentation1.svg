@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="768"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47pre0 r21549"
+   sodipodi:docname="light presentation1.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   enable-background="new"
+   inkscape:export-filename="/home/lrbabe/workspace/todoso/server/fileDb/image/p1 s0.png"
+   inkscape:export-xdpi="35.15625"
+   inkscape:export-ydpi="35.15625">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient2818">
+      <stop
+         style="stop-color:#777777;stop-opacity:1;"
+         offset="0"
+         id="stop2820" />
+      <stop
+         id="stop2826"
+         offset="0.14285712"
+         style="stop-color:#454545;stop-opacity:1;" />
+      <stop
+         style="stop-color:#b6b6b6;stop-opacity:1;"
+         offset="0.16889879"
+         id="stop2828" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="1"
+         id="stop2822" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2818"
+       id="linearGradient2824"
+       x1="400.57144"
+       y1="866.64789"
+       x2="400.57144"
+       y2="98.647911"
+       gradientUnits="userSpaceOnUse" />
+    <inkscape:perspective
+       id="perspective4232"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       id="filter4238"
+       inkscape:label="Desaturate"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero">
+      <feColorMatrix
+         id="feColorMatrix4240"
+         type="saturate"
+         values="0" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="340.19422"
+     inkscape:cy="419.61078"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4076"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     transform="translate(111.42857,-98.647911)"
+     id="g2911"
+     inkscape:groupmode="layer"
+     inkscape:label="background"
+     sodipodi:insensitive="true">
+    <rect
+       y="98.647911"
+       x="-111.42857"
+       height="768"
+       width="1024"
+       id="rect2913"
+       style="fill:url(#linearGradient2824);fill-opacity:1;stroke:none" />
+    <text
+       id="text2923"
+       y="826.64795"
+       x="-68.571426"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Tholoth;-inkscape-font-specification:Tholoth"
+       xml:space="preserve"><tspan
+         y="826.64795"
+         x="-68.571426"
+         id="tspan2925"
+         sodipodi:role="line">Ongtom Inc.</tspan></text>
+    <path
+       transform="matrix(1.6000318,-0.50299554,0.52768087,1.6004323,-519.4638,-240.34616)"
+       d="m 57.857144,677.28571 a 5.8928571,2.8571429 0 1 1 -11.785714,0 5.8928571,2.8571429 0 1 1 11.785714,0 z"
+       sodipodi:ry="2.8571429"
+       sodipodi:rx="5.8928571"
+       sodipodi:cy="677.28571"
+       sodipodi:cx="51.964287"
+       id="path2927"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.1896832;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.1896832;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path2929"
+       sodipodi:cx="51.964287"
+       sodipodi:cy="677.28571"
+       sodipodi:rx="5.8928571"
+       sodipodi:ry="2.8571429"
+       d="m 57.857144,677.28571 a 5.8928571,2.8571429 0 1 1 -11.785714,0 5.8928571,2.8571429 0 1 1 11.785714,0 z"
+       transform="matrix(1.610577,0.46813258,-0.44780755,1.624592,139.60117,-324.89661)" />
+    <path
+       transform="matrix(1.3567507,0.98606996,-0.97169467,1.3768225,517.25519,-198.29226)"
+       d="m 57.857144,677.28571 a 5.8928571,2.8571429 0 1 1 -11.785714,0 5.8928571,2.8571429 0 1 1 11.785714,0 z"
+       sodipodi:ry="2.8571429"
+       sodipodi:rx="5.8928571"
+       sodipodi:cy="677.28571"
+       sodipodi:cx="51.964287"
+       id="path2931"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.1896832;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#df2b72;fill-opacity:1;stroke:#df2b72;stroke-width:1.1896832;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path2933"
+       sodipodi:cx="51.964287"
+       sodipodi:cy="677.28571"
+       sodipodi:rx="5.8928571"
+       sodipodi:ry="2.8571429"
+       d="m 57.857144,677.28571 a 5.8928571,2.8571429 0 1 1 -11.785714,0 5.8928571,2.8571429 0 1 1 11.785714,0 z"
+       transform="matrix(0.1723311,1.668355,-1.6736916,0.19643601,1079.509,556.6208)" />
+    <path
+       transform="matrix(0.64187596,1.5495488,-1.547775,0.66650074,956.69599,245.68905)"
+       d="m 57.857144,677.28571 a 5.8928571,2.8571429 0 1 1 -11.785714,0 5.8928571,2.8571429 0 1 1 11.785714,0 z"
+       sodipodi:ry="2.8571429"
+       sodipodi:rx="5.8928571"
+       sodipodi:cy="677.28571"
+       sodipodi:cx="51.964287"
+       id="path2935"
+       style="fill:#df2b72;fill-opacity:1;stroke:#df2b72;stroke-width:1.1896832;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:1.1896832;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path2937"
+       sodipodi:cx="51.964287"
+       sodipodi:cy="677.28571"
+       sodipodi:rx="5.8928571"
+       sodipodi:ry="2.8571429"
+       d="m 57.857144,677.28571 a 5.8928571,2.8571429 0 1 1 -11.785714,0 5.8928571,2.8571429 0 1 1 11.785714,0 z"
+       transform="matrix(1.3567507,-0.98606996,-0.97169467,-1.3768225,517.61233,1815.5502)" />
+    <path
+       transform="matrix(1.4927537,0,0,1.1724138,-141.34519,-23.916891)"
+       d="m 70.963218,709.41113 a 8.7125654,14.647212 0 1 1 -17.425131,0 8.7125654,14.647212 0 1 1 17.425131,0 z"
+       sodipodi:ry="14.647212"
+       sodipodi:rx="8.7125654"
+       sodipodi:cy="709.41113"
+       sodipodi:cx="62.250652"
+       id="path2939"
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1.51180398;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc" />
+  </g>
+  <g
+     inkscape:label="slide 0"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(111.42857,-98.647911)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="609.6618"
+       y="700.76544"
+       id="text3602"><tspan
+         sodipodi:role="line"
+         id="tspan3604"
+         x="609.6618"
+         y="700.76544">by Dr. L. Ongtom</tspan></text>
+    <text
+       id="text3652"
+       y="442.04968"
+       x="181.91518"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#df2b72;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       xml:space="preserve"><tspan
+         y="442.04968"
+         x="181.91518"
+         id="tspan3654"
+         sodipodi:role="line"
+         style="font-size:64px;font-weight:bold;fill:#df2b72;fill-opacity:1;-inkscape-font-specification:Bitstream Vera Sans Bold">100% Purr Cat</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="162.31752"
+       y="521.17572"
+       id="text3656"><tspan
+         sodipodi:role="line"
+         id="tspan3658"
+         x="162.31752"
+         y="521.17572"
+         style="-inkscape-font-specification:Bitstream Vera Sans">toward a superior race</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect3660"
+       width="456.58899"
+       height="3"
+       x="172.27693"
+       y="451.50565" />
+  </g>
+  <g
+     transform="translate(111.42857,-98.647911)"
+     id="g3950"
+     inkscape:groupmode="layer"
+     inkscape:label="slide 1"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#df2b72;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="-53.450367"
+       y="226.88719"
+       id="text3958"><tspan
+         style="font-size:56px;font-weight:bold;fill:#df2b72;fill-opacity:1;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         sodipodi:role="line"
+         id="tspan3960"
+         x="-53.450367"
+         y="226.88719">State of the art</tspan></text>
+    <rect
+       y="240.38376"
+       x="-76.220596"
+       height="3"
+       width="700"
+       id="rect3984"
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="846.19604"
+       y="829.27222"
+       id="text3988"><tspan
+         sodipodi:role="line"
+         id="tspan3990"
+         x="846.19604"
+         y="829.27222">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="-8.393012"
+       y="329.24677"
+       id="text3992"><tspan
+         sodipodi:role="line"
+         id="tspan3994"
+         x="-8.393012"
+         y="329.24677"
+         style="font-size:44px;-inkscape-font-specification:Bitstream Vera Sans">Today's cat weaknesses:</tspan></text>
+    <text
+       id="text3998"
+       y="551.7663"
+       x="66.358276"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       xml:space="preserve"><tspan
+         style="font-size:44px;-inkscape-font-specification:Bitstream Vera Sans"
+         y="551.7663"
+         x="66.358276"
+         id="tspan4000"
+         sodipodi:role="line">is afraid of water</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="66.358276"
+       y="627.67072"
+       id="text4014"><tspan
+         sodipodi:role="line"
+         id="tspan4016"
+         x="66.358276"
+         y="627.67072"
+         style="font-size:44px;-inkscape-font-specification:Bitstream Vera Sans">...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="66.358276"
+       y="475.86188"
+       id="text4002"><tspan
+         sodipodi:role="line"
+         id="tspan4004"
+         x="66.358276"
+         y="475.86188"
+         style="font-size:44px;-inkscape-font-specification:Bitstream Vera Sans">cannot digest hairs</tspan></text>
+    <text
+       id="text4006"
+       y="399.95746"
+       x="66.358276"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       xml:space="preserve"><tspan
+         style="font-size:44px;-inkscape-font-specification:Bitstream Vera Sans"
+         y="399.95746"
+         x="66.358276"
+         id="tspan4008"
+         sodipodi:role="line">needs to sleep 18 hours a day</tspan></text>
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="slide 2"
+     inkscape:groupmode="layer"
+     id="g4018"
+     transform="translate(111.42857,-98.647911)"
+     sodipodi:insensitive="true">
+    <text
+       id="text4022"
+       y="226.88719"
+       x="-53.450367"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#df2b72;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       xml:space="preserve"><tspan
+         y="226.88719"
+         x="-53.450367"
+         id="tspan4024"
+         sodipodi:role="line"
+         style="font-size:56px;font-weight:bold;fill:#df2b72;fill-opacity:1;-inkscape-font-specification:Bitstream Vera Sans Bold">Possible improvements</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4044"
+       width="700"
+       height="3"
+       x="-76.220596"
+       y="240.38376" />
+    <text
+       id="text4046"
+       y="829.27222"
+       x="846.19604"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       xml:space="preserve"><tspan
+         y="829.27222"
+         x="846.19604"
+         id="tspan4048"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       id="text4050"
+       y="329.24677"
+       x="-8.393012"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       xml:space="preserve"><tspan
+         style="font-size:44px;-inkscape-font-specification:Bitstream Vera Sans"
+         y="329.24677"
+         x="-8.393012"
+         id="tspan4052"
+         sodipodi:role="line">At Ongtom Inc. we develop:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="66.358276"
+       y="556.3858"
+       id="text4054"><tspan
+         sodipodi:role="line"
+         id="tspan4056"
+         x="66.358276"
+         y="556.3858"
+         style="font-size:44px;-inkscape-font-specification:Bitstream Vera Sans">cheezburger diets</tspan></text>
+    <text
+       id="text4058"
+       y="634.59998"
+       x="66.358276"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       xml:space="preserve"><tspan
+         style="font-size:44px;-inkscape-font-specification:Bitstream Vera Sans"
+         y="634.59998"
+         x="66.358276"
+         id="tspan4060"
+         sodipodi:role="line">kitteh training camps</tspan></text>
+    <text
+       id="text4062"
+       y="478.17163"
+       x="66.358276"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       xml:space="preserve"><tspan
+         style="font-size:44px;-inkscape-font-specification:Bitstream Vera Sans"
+         y="478.17163"
+         x="66.358276"
+         id="tspan4064"
+         sodipodi:role="line">GMC</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="66.358276"
+       y="399.95746"
+       id="text4066"><tspan
+         sodipodi:role="line"
+         id="tspan4068"
+         x="66.358276"
+         y="399.95746"
+         style="font-size:44px;-inkscape-font-specification:Bitstream Vera Sans">selective breeding</tspan></text>
+  </g>
+  <g
+     transform="translate(111.42857,-98.647911)"
+     id="g4076"
+     inkscape:groupmode="layer"
+     inkscape:label="slide 3"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#df2b72;fill-opacity:1;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="-53.450367"
+       y="226.88719"
+       id="text4080"><tspan
+         style="font-size:56px;font-weight:bold;fill:#df2b72;fill-opacity:1;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         sodipodi:role="line"
+         id="tspan4082"
+         x="-53.450367"
+         y="226.88719">Early results</tspan></text>
+    <rect
+       y="240.38376"
+       x="-76.220596"
+       height="3"
+       width="700"
+       id="rect4102"
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="846.19604"
+       y="829.27222"
+       id="text4104"><tspan
+         sodipodi:role="line"
+         id="tspan4106"
+         x="846.19604"
+         y="829.27222">3</tspan></text>
+    <image
+       y="267.00507"
+       x="113.04762"
+       id="image4234"
+       height="431.28571"
+       width="575.04761"
+       xlink:href="file:///home/lrbabe/workspace/todoso/project/design/mutant%20cat.JPG"
+       style="filter:url(#filter4238)"
+       transform="matrix(0.88075521,0,0,0.88075521,47.766054,31.838962)" />
+    <path
+       style="fill:#df2b72;fill-opacity:1;stroke-width:1px"
+       d="m 380.38355,472.33581 -26.35645,-33.95459 11.57049,-8.98132 -40.58932,-15.17974 5.87784,42.1237 11.57049,-8.98133 26.35646,33.9546 11.57049,-8.98132 z"
+       id="path4265"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path4267"
+       d="m 435.10838,447.21823 -32.59294,-28.0228 9.54915,-11.10648 -42.79989,-6.78868 14.15244,40.10815 9.54915,-11.1065 32.59294,28.02281 9.54915,-11.1065 z"
+       style="fill:#df2b72;fill-opacity:1;stroke-width:1px" />
+    <text
+       xml:space="preserve"
+       style="font-size:44px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#4d4d4d;font-family:Liberation Sans;-inkscape-font-specification:Liberation Sans"
+       x="83.129044"
+       y="709.06409"
+       id="text4269"><tspan
+         sodipodi:role="line"
+         id="tspan4271"
+         x="83.129044"
+         y="709.06409">a 50% increase in claws number</tspan></text>
+  </g>
+</svg>

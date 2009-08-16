@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Todoso: navigation</title>
+        <link rel="stylesheet" type="text/css" media="all" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" media="all" href="css/todoso.grid.css" />
+	</head>
+	<body onserverload="init()">
+		<div class="head">
+			<div class="ubiquity">
+				<input type="text"><button>▶</button><br/>
+				Search by: <button id="btnTitle">title</button> <button id="btnTag">tag</button> <button id="btnDate">date</button>
+			</div>
+		</div>
+        <div id="contents" class="mainView"><div class="content"></div></div>
+        
+		<script src="script/active.jaxer.js" runat="server-nocache" autoload="true"></script>
+		<script runat="server-nocache" autoload="true">ActiveRecord.connect(ActiveRecord.Adapters.JaxerSQLite);</script>
+		<script src="script/active.js"></script>
+		<script runat="client">ActiveRecord.connect(ActiveRecord.Adapters.InMemory);</script>
+		<script src="script/model.js" runat="both-nocache" autoload="true"></script>
+		<script src="script/view.js" runat="both-nocache"></script>
+		<script runat="server-nocache">
+        	function findSectionsByArticleId(id) {
+				var sections = Section.find({all: true, order: "position", where: 'article_id ="'+id+'" AND position > 0'}),
+					length = sections.length,
+					i = 0,
+					htmls = [];
+				for (; i < length; ++i) {
+					sections[i].set("html", sections[i].getHtml().get("content"));
+				}
+				return sections;
+			}
+			findSectionsByArticleId.proxy = true;
+			
+			function init() {
+				// Collect all presentations
+                var presentations = Article.find({all: true}),
+                    instance,
+                    i,
+                    length = presentations.length,
+                    content = document.getElementsByClassName("content")[0];
+					
+				for(i = 0; i < length; ++i) {
+                    instance = new ArticleView({
+                        html: presentations[i].getHtml().get('content'),
+                        id: presentations[i].get('id'),
+						top:  Math.floor(i /3) * 33 + 4,
+						left: i % 3 * 33 + 2
+                    });
+                    content.appendChild(instance.container);
+                }
+            }
+        </script>
+		<script src="script/jquery.js"></script>
+		<script src="script/jquery.closestandoverandout.js"></script>
+        <script src="script/todoso.grid.js"></script>
+        <script>
+        	$(function() {
+                $contents = $("#contents").grid()
+				.dblclick(function(e) {
+					$closest = $(e.target).closest("article");
+					if($closest.length) {
+						findSectionsByArticleId.async(function(sections) {
+							var fragment = document.createDocumentFragment(),
+								backgroundSrc = $closest.find("img.unitBackground").attr('src'),
+								section,
+								length = sections.length,
+								i = 0;
+							for(; i < length; ++i) {
+								section = new SectionView({
+									background: 'src=\\\\"'+backgroundSrc,
+			                        html: sections[i].html,
+			                        id: sections[i].id,
+									wrap: true,
+									unit: true
+			                    });
+								fragment.appendChild(section.container);						
+							}
+							$contents.data('fragment', fragment);
+							$closest.data('ready')?
+								$closest.trigger('distributeUnits') :
+								$closest.data('ready', true);
+						}, $closest.attr('data-id'));
+					}
+				});
+            });
+        </script>
+	</body>
+</html>

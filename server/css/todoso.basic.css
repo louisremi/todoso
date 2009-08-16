@@ -1,0 +1,43 @@
+/*.view {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}*/
+
+.hPresentation {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	display: block;
+	margin: 0 auto;
+}
+
+/* Reset CSS for the content of the presentation */
+.hPresentation * {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.hSlide {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.hSlide * {
+	position: absolute;
+}
+
+.hBackground {
+	width: 100%;
+	height: 100%;
+	cursor: default;
+	outline: none;
+}
+
+.hNumber {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}

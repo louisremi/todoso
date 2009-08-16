@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="768"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47pre0 r21549"
+   sodipodi:docname="light presentation2.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/lrbabe/workspace/todoso/server/fileDb/image/p2 b.png"
+   inkscape:export-xdpi="35.15625"
+   inkscape:export-ydpi="35.15625">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3777">
+      <stop
+         id="stop3779"
+         offset="0"
+         style="stop-color:#656565;stop-opacity:0.78991598;" />
+      <stop
+         style="stop-color:#b2b2b2;stop-opacity:0.39215686;"
+         offset="0.34292492"
+         id="stop3787" />
+      <stop
+         id="stop3789"
+         offset="0.63542759"
+         style="stop-color:#d8d8d8;stop-opacity:0.19607843;" />
+      <stop
+         id="stop3785"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3590">
+      <stop
+         id="stop3604"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.73273385"
+         id="stop3625" />
+      <stop
+         style="stop-color:#ff0101;stop-opacity:1;"
+         offset="1"
+         id="stop3594" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3590"
+       id="radialGradient3623"
+       cx="87.735931"
+       cy="514.81897"
+       fx="87.735931"
+       fy="514.81897"
+       r="512"
+       gradientTransform="matrix(1.5149191,-5.8241196e-8,3.1948459e-8,1.1935845,-45.176944,-99.660928)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="616.22619"
+     inkscape:cy="351.09789"
+     inkscape:document-units="px"
+     inkscape:current-layer="g2880"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="776"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     transform="translate(424.26407,-130.81897)"
+     id="g2880"
+     inkscape:groupmode="layer"
+     inkscape:label="background"
+     sodipodi:insensitive="true">
+    <rect
+       y="132.81897"
+       x="-422.26407"
+       height="764"
+       width="1020"
+       id="rect2882"
+       style="fill:url(#radialGradient3623);fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <rect
+       ry="0"
+       rx="0"
+       y="147.814"
+       x="-407.71292"
+       height="734.00995"
+       width="990.89771"
+       id="rect2896"
+       style="fill:none;stroke:#ffffff;stroke-width:7.99999952;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+  <g
+     inkscape:label="slide 0"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(424.26407,-130.81897)"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="-238.95451"
+       y="433.22787"
+       id="text3732"><tspan
+         sodipodi:role="line"
+         id="tspan3734"
+         x="-238.95451"
+         y="433.22787"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold">Keeping low profile</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans"
+       x="90.913734"
+       y="754.94659"
+       id="text3736"><tspan
+         sodipodi:role="line"
+         id="tspan3738"
+         x="90.913734"
+         y="754.94659"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter">Using survival instinct</tspan><tspan
+         sodipodi:role="line"
+         x="90.913734"
+         y="814.94659"
+         id="tspan3740"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter">in domestic environnement</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3742"
+       width="569.72601"
+       height="3.7960472"
+       x="-197.12708"
+       y="512.92096" />
+  </g>
+  <g
+     transform="translate(424.26407,-130.81897)"
+     id="g3631"
+     inkscape:groupmode="layer"
+     inkscape:label="slide 1"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="-234.95451"
+       y="437.22787"
+       id="text3635"><tspan
+         sodipodi:role="line"
+         id="tspan3637"
+         x="-234.95451"
+         y="437.22787"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold" /></text>
+    <text
+       id="text3639"
+       y="247.5136"
+       x="-361.81165"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       xml:space="preserve"><tspan
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
+         y="247.5136"
+         x="-361.81165"
+         id="tspan3641"
+         sodipodi:role="line">Repeat after me</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="489.61691"
+       y="830.37073"
+       id="text3655"><tspan
+         sodipodi:role="line"
+         id="tspan3657"
+         x="489.61691"
+         y="830.37073"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold">1</tspan></text>
+    <text
+       id="text3643"
+       y="409.72253"
+       x="6.5000563"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Bold"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="tspan3647"
+         y="409.72253"
+         x="6.5000563"
+         sodipodi:role="line">Maaow</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Bold"
+       x="11.266306"
+       y="526.22681"
+       id="text3663"><tspan
+         sodipodi:role="line"
+         x="11.266306"
+         y="526.22681"
+         id="tspan3665"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans Bold">FrRRrr</tspan></text>
+    <text
+       id="text3667"
+       y="759.23529"
+       x="8.4538059"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Bold"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="tspan3669"
+         y="759.23529"
+         x="8.4538059"
+         sodipodi:role="line">rRRrao</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Bold"
+       x="51.62793"
+       y="642.73102"
+       id="text3671"><tspan
+         sodipodi:role="line"
+         x="51.62793"
+         y="642.73102"
+         id="tspan3673"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans Bold">Mii</tspan></text>
+    <rect
+       y="276.93881"
+       x="-362.84137"
+       height="4.4210472"
+       width="875.44031"
+       id="rect3649"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     style="display:none"
+     inkscape:label="slide 2"
+     inkscape:groupmode="layer"
+     id="g3677"
+     transform="translate(424.26407,-130.81897)"
+     sodipodi:insensitive="true">
+    <text
+       id="text3681"
+       y="437.22787"
+       x="-234.95451"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       xml:space="preserve"><tspan
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
+         y="437.22787"
+         x="-234.95451"
+         id="tspan3683"
+         sodipodi:role="line" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="-361.81165"
+       y="247.5136"
+       id="text3685"><tspan
+         sodipodi:role="line"
+         id="tspan3687"
+         x="-361.81165"
+         y="247.5136"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold">The art of pretending...</tspan></text>
+    <text
+       id="text3689"
+       y="830.37073"
+       x="489.61691"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       xml:space="preserve"><tspan
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
+         y="830.37073"
+         x="489.61691"
+         id="tspan3691"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Bold"
+       x="-376.23206"
+       y="375.43683"
+       id="text3693"><tspan
+         sodipodi:role="line"
+         x="-376.23206"
+         y="375.43683"
+         id="tspan3695"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans Bold">Cats usually don't</tspan></text>
+    <text
+       id="text3713"
+       y="375.43683"
+       x="153.76793"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Bold"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="tspan3715"
+         y="375.43683"
+         x="153.76793"
+         sodipodi:role="line">Cats usually do</tspan></text>
+    <text
+       id="text3697"
+       y="564.776"
+       x="-325.18408"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans"
+         id="tspan3699"
+         y="564.776"
+         x="-325.18408"
+         sodipodi:role="line">read Sun Tzu's book</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans"
+       x="204.97594"
+       y="457.18982"
+       id="text3717"><tspan
+         sodipodi:role="line"
+         x="204.97594"
+         y="457.18982"
+         id="tspan3719"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans">hunt down lizards</tspan></text>
+    <text
+       id="text3721"
+       y="564.776"
+       x="204.97594"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans"
+         id="tspan3723"
+         y="564.776"
+         x="204.97594"
+         sodipodi:role="line">lie down on things</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans"
+       x="-325.18408"
+       y="457.18982"
+       id="text3725"><tspan
+         sodipodi:role="line"
+         x="-325.18408"
+         y="457.18982"
+         id="tspan3727"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans">practice krav maga</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans"
+       x="204.97594"
+       y="672.36218"
+       id="text3701"><tspan
+         sodipodi:role="line"
+         x="204.97594"
+         y="672.36218"
+         id="tspan3703"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans">burry their feces</tspan></text>
+    <text
+       id="text3705"
+       y="672.36218"
+       x="-325.18408"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans"
+         id="tspan3707"
+         y="672.36218"
+         x="-325.18408"
+         sodipodi:role="line">hide evidences</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect3709"
+       width="875.44031"
+       height="4.4210472"
+       x="-362.84137"
+       y="276.93881" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3731"
+       sodipodi:cx="72.73098"
+       sodipodi:cy="432.12427"
+       sodipodi:rx="4.5456862"
+       sodipodi:ry="4.5456862"
+       d="m 77.276666,432.12427 c 0,2.51051 -2.035173,4.54568 -4.545686,4.54568 -2.510513,0 -4.545686,-2.03517 -4.545686,-4.54568 0,-2.51052 2.035173,-4.54569 4.545686,-4.54569 2.510513,0 4.545686,2.03517 4.545686,4.54569 z"
+       transform="translate(-412.44936,118.17173)" />
+    <path
+       transform="translate(117.55064,10.545552)"
+       d="m 77.276666,432.12427 c 0,2.51051 -2.035173,4.54568 -4.545686,4.54568 -2.510513,0 -4.545686,-2.03517 -4.545686,-4.54568 0,-2.51052 2.035173,-4.54569 4.545686,-4.54569 2.510513,0 4.545686,2.03517 4.545686,4.54569 z"
+       sodipodi:ry="4.5456862"
+       sodipodi:rx="4.5456862"
+       sodipodi:cy="432.12427"
+       sodipodi:cx="72.73098"
+       id="path3733"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3735"
+       sodipodi:cx="72.73098"
+       sodipodi:cy="432.12427"
+       sodipodi:rx="4.5456862"
+       sodipodi:ry="4.5456862"
+       d="m 77.276666,432.12427 c 0,2.51051 -2.035173,4.54568 -4.545686,4.54568 -2.510513,0 -4.545686,-2.03517 -4.545686,-4.54568 0,-2.51052 2.035173,-4.54569 4.545686,-4.54569 2.510513,0 4.545686,2.03517 4.545686,4.54569 z"
+       transform="translate(117.55064,118.11173)" />
+    <path
+       transform="translate(117.55064,229.71792)"
+       d="m 77.276666,432.12427 c 0,2.51051 -2.035173,4.54568 -4.545686,4.54568 -2.510513,0 -4.545686,-2.03517 -4.545686,-4.54568 0,-2.51052 2.035173,-4.54569 4.545686,-4.54569 2.510513,0 4.545686,2.03517 4.545686,4.54569 z"
+       sodipodi:ry="4.5456862"
+       sodipodi:rx="4.5456862"
+       sodipodi:cy="432.12427"
+       sodipodi:cx="72.73098"
+       id="path3737"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path3739"
+       sodipodi:cx="72.73098"
+       sodipodi:cy="432.12427"
+       sodipodi:rx="4.5456862"
+       sodipodi:ry="4.5456862"
+       d="m 77.276666,432.12427 c 0,2.51051 -2.035173,4.54568 -4.545686,4.54568 -2.510513,0 -4.545686,-2.03517 -4.545686,-4.54568 0,-2.51052 2.035173,-4.54569 4.545686,-4.54569 2.510513,0 4.545686,2.03517 4.545686,4.54569 z"
+       transform="translate(-412.44936,225.69792)" />
+    <path
+       transform="translate(-412.44936,14.705552)"
+       d="m 77.276666,432.12427 c 0,2.51051 -2.035173,4.54568 -4.545686,4.54568 -2.510513,0 -4.545686,-2.03517 -4.545686,-4.54568 0,-2.51052 2.035173,-4.54569 4.545686,-4.54569 2.510513,0 4.545686,2.03517 4.545686,4.54569 z"
+       sodipodi:ry="4.5456862"
+       sodipodi:rx="4.5456862"
+       sodipodi:cy="432.12427"
+       sodipodi:cx="72.73098"
+       id="path3741"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+  </g>
+  <g
+     transform="translate(424.26407,-130.81897)"
+     id="g2898"
+     inkscape:groupmode="layer"
+     inkscape:label="slide 3"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <text
+       xml:space="preserve"
+       style="font-size:56px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="-234.95451"
+       y="437.22787"
+       id="text2902"><tspan
+         sodipodi:role="line"
+         id="tspan2904"
+         x="-234.95451"
+         y="437.22787"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold" /></text>
+    <text
+       id="text2906"
+       y="247.5136"
+       x="-361.81165"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       xml:space="preserve"><tspan
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold"
+         y="247.5136"
+         x="-361.81165"
+         id="tspan2908"
+         sodipodi:role="line">After all</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Mono Bold"
+       x="489.61691"
+       y="830.37073"
+       id="text2910"><tspan
+         sodipodi:role="line"
+         id="tspan2912"
+         x="489.61691"
+         y="830.37073"
+         style="font-size:72px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#000000;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Charter Bold">3</tspan></text>
+    <text
+       id="text2914"
+       y="375.43683"
+       x="-376.23206"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans Bold"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans Bold"
+         id="tspan2916"
+         y="375.43683"
+         x="-376.23206"
+         sodipodi:role="line">You're only expected to:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans"
+       x="-325.18408"
+       y="564.776"
+       id="text2922"><tspan
+         sodipodi:role="line"
+         x="-325.18408"
+         y="564.776"
+         id="tspan2924"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans">not scratch people trying to stroke you,</tspan></text>
+    <text
+       id="text2934"
+       y="457.18982"
+       x="-325.18408"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans"
+         id="tspan2936"
+         y="457.18982"
+         x="-325.18408"
+         sodipodi:role="line">sleep most of the time,</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Vera Sans Mono;-inkscape-font-specification:Bitstream Vera Sans"
+       x="-325.18408"
+       y="672.36218"
+       id="text2942"><tspan
+         sodipodi:role="line"
+         x="-325.18408"
+         y="672.36218"
+         id="tspan2944"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#808080;font-family:Bitstream Charter;-inkscape-font-specification:Bitstream Vera Sans"><tspan
+   style="font-style:italic;font-weight:normal;-inkscape-font-specification:Bitstream Vera Sans"
+   id="tspan2978">sphinx</tspan>, or &quot;be beautiful and be quiet&quot;.</tspan></text>
+    <rect
+       y="276.93881"
+       x="-362.84137"
+       height="4.4210472"
+       width="875.44031"
+       id="rect2946"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <path
+       transform="translate(-412.44936,118.17173)"
+       d="m 77.276666,432.12427 a 4.5456862,4.5456862 0 1 1 -9.091372,0 4.5456862,4.5456862 0 1 1 9.091372,0 z"
+       sodipodi:ry="4.5456862"
+       sodipodi:rx="4.5456862"
+       sodipodi:cy="432.12427"
+       sodipodi:cx="72.73098"
+       id="path2950"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       transform="translate(-412.44936,225.69792)"
+       d="m 77.276666,432.12427 a 4.5456862,4.5456862 0 1 1 -9.091372,0 4.5456862,4.5456862 0 1 1 9.091372,0 z"
+       sodipodi:ry="4.5456862"
+       sodipodi:rx="4.5456862"
+       sodipodi:cy="432.12427"
+       sodipodi:cx="72.73098"
+       id="path2958"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="path2960"
+       sodipodi:cx="72.73098"
+       sodipodi:cy="432.12427"
+       sodipodi:rx="4.5456862"
+       sodipodi:ry="4.5456862"
+       d="m 77.276666,432.12427 a 4.5456862,4.5456862 0 1 1 -9.091372,0 4.5456862,4.5456862 0 1 1 9.091372,0 z"
+       transform="translate(-412.44936,14.705552)" />
+  </g>
+</svg>
